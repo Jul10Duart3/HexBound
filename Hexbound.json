@@ -299,6 +299,82 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "Pixel Brawl.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Pixel Brawl.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Orquestra do Caos.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Orquestra do Caos.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BP/BP parado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BP\\BP parado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BP/BP atacado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BP\\BP atacado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BP/BP ataca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BP\\BP ataca.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BP/BP morto.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\BP\\BP morto.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MD/atacado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MD\\atacado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MD/parado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MD\\parado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MD/parado0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MD\\parado0002.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
