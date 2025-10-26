@@ -1,0 +1,1047 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "gdevelopVersion": "",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "AnimasaoDeEntrarEVoltar",
+  "previewIconUrl": "",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "fullName": "",
+      "functionType": "Condition",
+      "name": "Function",
+      "sentence": "_PARAM1_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Tween::HasFinished"
+              },
+              "parameters": [
+                "Objeto",
+                "Parameter2",
+                "\"Inter2\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "é o objeto a ser animado",
+          "name": "Objeto",
+          "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "Parameter2",
+          "supplementaryInformation": "Tween::TweenBehavior",
+          "type": "behavior"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "description": "aa",
+      "fullName": "Animação",
+      "functionType": "Action",
+      "group": "aa",
+      "name": "Function2",
+      "sentence": "_PARAM1__PARAM2__PARAM3__PARAM4__PARAM5__PARAM7__PARAM6_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Parameter",
+                "Parameter2",
+                "\"Inter\"",
+                "Xinical+ Distancia",
+                "TipoDeAnimação",
+                "Duração",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "Duração"
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "TempoParaVoltar"
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
+              },
+              "parameters": [
+                "Parameter",
+                "Parameter2",
+                "\"Inter2\"",
+                "Parameter.X() - Distancia",
+                "TipoDeAnimação",
+                "Duração",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "Duração"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "Parameter",
+          "type": "objectList"
+        },
+        {
+          "description": "",
+          "name": "Parameter2",
+          "supplementaryInformation": "Tween::TweenBehavior",
+          "type": "behavior"
+        },
+        {
+          "description": "distancia",
+          "name": "Distancia",
+          "type": "expression"
+        },
+        {
+          "description": "Defina a duração",
+          "name": "Duração",
+          "type": "expression"
+        },
+        {
+          "description": "defina a animação",
+          "name": "TipoDeAnimação",
+          "supplementaryInformation": "[\"linear\",\"bouncePast\"]",
+          "type": "stringWithSelector"
+        },
+        {
+          "description": "Posisão inicial",
+          "name": "Xinical",
+          "type": "expression"
+        },
+        {
+          "description": "Defina o tempo para o objeto voltar",
+          "name": "TempoParaVoltar",
+          "type": "expression"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [
+    {
+      "description": "adasdasd",
+      "fullName": "Animador",
+      "name": "MyBehavior",
+      "objectType": "",
+      "eventsFunctions": [],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "para ficar mais legal =D",
+          "description": "defina o estilo da animação",
+          "group": "animação",
+          "extraInformation": [
+            "Tween::TweenBehavior"
+          ],
+          "choices": [],
+          "name": "Property"
+        }
+      ],
+      "sharedPropertyDescriptors": [
+        {
+          "value": "770",
+          "type": "Number",
+          "label": "Movimentos legais",
+          "description": "a",
+          "group": "Movimento",
+          "name": "Movimento"
+        }
+      ]
+    },
+    {
+      "description": "Ao ser criado, ele ira fazer uma animação de spawn",
+      "fullName": "Boucing Spaner",
+      "name": "BouceSpawn",
+      "objectType": "",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::PropertyProperty4"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property3",
+                    "=",
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property3",
+                    "=",
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Y\"",
+                    "1",
+                    "\"bouncePast\"",
+                    "0.3",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleXTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"X\"",
+                    "1",
+                    "\"bouncePast\"",
+                    "0.3",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AnimasaoDeEntrarEVoltar::BouceSpawn",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "DesativadorDeGirin",
+          "sentence": "_PARAM0_PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Property6",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Rotação\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Property6",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AnimasaoDeEntrarEVoltar::BouceSpawn",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "AtivadorDeGirin",
+          "sentence": "_PARAM0_PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Property6",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Rotação\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Property6",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "-6"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AnimasaoDeEntrarEVoltar::BouceSpawn",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "Ativar animação",
+          "functionType": "Action",
+          "group": "Animations",
+          "name": "BoucingActivate",
+          "sentence": "_PARAM0__PARAM1_PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareArgumentAsString"
+                  },
+                  "parameters": [
+                    "\"TipoDeAnimacao\"",
+                    "=",
+                    "\"Horisontal\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property3",
+                    "=",
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property3",
+                    "=",
+                    "0.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Y\"",
+                    "1",
+                    "\"bouncePast\"",
+                    "0.3",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleXTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"X\"",
+                    "1",
+                    "\"bouncePast\"",
+                    "0.3",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareArgumentAsString"
+                  },
+                  "parameters": [
+                    "\"TipoDeAnimacao\"",
+                    "=",
+                    "\"Vertical\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property3",
+                    "=",
+                    "0.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property3",
+                    "=",
+                    "1.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleYTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Y\"",
+                    "1",
+                    "\"bouncePast\"",
+                    "0.3",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleXTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"X\"",
+                    "1",
+                    "\"bouncePast\"",
+                    "0.3",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AnimasaoDeEntrarEVoltar::BouceSpawn",
+              "type": "behavior"
+            },
+            {
+              "description": "Defina a direção do boucing",
+              "name": "TipoDeAnimacao",
+              "supplementaryInformation": "[\"Horisontal\",\"Vertical\"]",
+              "type": "stringWithSelector"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Ativa uma Animação de Dano",
+          "fullName": "Damage Animation",
+          "functionType": "Action",
+          "group": "Animations",
+          "name": "DamageAnimation",
+          "sentence": "_PARAM0_PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Angulo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"coloracao\"",
+                    "155",
+                    "\"linear\"",
+                    "0.1",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "Tween::Exists"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property",
+                        "\"Angulo\""
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"Angulo\"",
+                            "0",
+                            "\"bouncePast\"",
+                            "0.5",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property5"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Property",
+                            "\"Angulo\"",
+                            "0",
+                            "\"bouncePast\"",
+                            "0.5",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AnimasaoDeEntrarEVoltar::BouceSpawn",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Angulo\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::RemoveTween"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Angulo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::IsPlaying"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"Angulo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"coloracao\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Property",
+                    "\"coloracao\"",
+                    "255",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::PropertyProperty6"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "<=",
+                        "-5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property",
+                        "\"Rotação\"",
+                        "5",
+                        "\"bouncePast\"",
+                        "0.8",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Angle"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectAngleTween2"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Property",
+                        "\"Rotação\"",
+                        "-5",
+                        "\"bouncePast\"",
+                        "0.8",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "6"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "AnimasaoDeEntrarEVoltar::BouceSpawn",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "isso deixa mais gostoso de ver =D",
+          "extraInformation": [
+            "Tween::TweenBehavior"
+          ],
+          "choices": [],
+          "name": "Property"
+        },
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "",
+          "extraInformation": [
+            "ResizableCapability::ResizableBehavior"
+          ],
+          "choices": [],
+          "name": "Property2"
+        },
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "",
+          "extraInformation": [
+            "ScalableCapability::ScalableBehavior"
+          ],
+          "choices": [],
+          "name": "Property3"
+        },
+        {
+          "value": "true",
+          "type": "Boolean",
+          "label": "Ativar animação de spawn",
+          "description": "ao spawnar ele executara uma animação ou não executa a animação",
+          "group": "Animations",
+          "name": "Property4"
+        },
+        {
+          "value": "",
+          "type": "Behavior",
+          "label": "",
+          "extraInformation": [
+            "FlippableCapability::FlippableBehavior"
+          ],
+          "choices": [],
+          "name": "Property5"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "sacudir",
+          "description": "basicamente ele vai sacudir",
+          "group": "Animations",
+          "name": "Property6"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}
