@@ -465,6 +465,48 @@
         "name": "assets\\Jogador\\UiMedo.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/cartas/Copas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cartas\\Copas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartas/Paus.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cartas\\Paus.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cartas/Espadas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cartas\\Espadas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Red_X_Freehand.svg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Red_X_Freehand.svg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Explorando o Infinito.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Explorando o Infinito.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -474,11 +516,31 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Vitorioso",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Tipo",
+      "type": "string",
+      "value": "Bloco Preto"
+    },
+    {
+      "name": "EmBatalha",
+      "type": "boolean",
+      "value": false
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/cena-sem-ttulo"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/local1"
     }
   ],
   "externalEvents": [],

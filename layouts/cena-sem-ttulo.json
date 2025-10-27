@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.33005600491659703,
+    "zoomFactor": 0.26167741169921843,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -52,6 +52,16 @@
       "value": false
     },
     {
+      "name": "DamageBoost",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "Coisas",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "EnemyInAction",
       "type": "boolean",
       "value": false
@@ -74,7 +84,7 @@
       "width": 0,
       "x": 96,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -90,7 +100,7 @@
       "width": 0,
       "x": 256,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -112,7 +122,7 @@
       "width": 0,
       "x": 416,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -160,7 +170,13 @@
         }
       ],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "name": "Tipo",
+          "type": "string",
+          "value": "Bloco Preto"
+        }
+      ]
     },
     {
       "angle": 0,
@@ -174,7 +190,7 @@
       "width": 1920,
       "x": 0,
       "y": 800,
-      "zOrder": 3,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -191,23 +207,7 @@
       "width": 544,
       "x": 320,
       "y": 832,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 0,
-      "height": 224,
-      "layer": "",
-      "name": "Fugir",
-      "persistentUuid": "c21301db-64eb-4b1e-a81b-a396d1ad5c07",
-      "width": 544,
-      "x": 1056,
-      "y": 832,
-      "zOrder": 6,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -261,7 +261,7 @@
       "width": 0,
       "x": 576,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -283,7 +283,7 @@
       "width": 0,
       "x": 736,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -305,7 +305,7 @@
       "width": 0,
       "x": 896,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -327,7 +327,7 @@
       "width": 0,
       "x": 1056,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -349,7 +349,7 @@
       "width": 0,
       "x": 1216,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -371,7 +371,7 @@
       "width": 0,
       "x": 1376,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -393,7 +393,7 @@
       "width": 0,
       "x": 1536,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -415,7 +415,7 @@
       "width": 0,
       "x": 1696,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -437,7 +437,7 @@
       "width": 0,
       "x": 1856,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -459,7 +459,7 @@
       "width": 0,
       "x": 1824,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -481,7 +481,7 @@
       "width": 0,
       "x": 1664,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -503,7 +503,7 @@
       "width": 0,
       "x": 1504,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -525,7 +525,7 @@
       "width": 0,
       "x": 1344,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -547,7 +547,7 @@
       "width": 0,
       "x": 1184,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -569,7 +569,7 @@
       "width": 0,
       "x": 1024,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -591,7 +591,7 @@
       "width": 0,
       "x": 864,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -613,7 +613,7 @@
       "width": 0,
       "x": 704,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -635,7 +635,7 @@
       "width": 0,
       "x": 544,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -657,7 +657,7 @@
       "width": 0,
       "x": 384,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -679,7 +679,7 @@
       "width": 0,
       "x": 224,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -701,7 +701,7 @@
       "width": 0,
       "x": 128,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -723,7 +723,7 @@
       "width": 0,
       "x": 288,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -745,7 +745,7 @@
       "width": 0,
       "x": 448,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -767,7 +767,7 @@
       "width": 0,
       "x": 608,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -789,7 +789,7 @@
       "width": 0,
       "x": 768,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -811,7 +811,7 @@
       "width": 0,
       "x": 928,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -833,7 +833,7 @@
       "width": 0,
       "x": 1088,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -855,7 +855,7 @@
       "width": 0,
       "x": 1248,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -877,7 +877,7 @@
       "width": 0,
       "x": 1408,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -899,7 +899,7 @@
       "width": 0,
       "x": 1568,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -921,7 +921,7 @@
       "width": 0,
       "x": 1728,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -943,7 +943,7 @@
       "width": 0,
       "x": 1792,
       "y": 1152,
-      "zOrder": 1,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": [
@@ -1016,7 +1016,7 @@
       "width": 256,
       "x": 32,
       "y": 720,
-      "zOrder": 11,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1049,7 +1049,7 @@
       "width": 544,
       "x": 1920,
       "y": 0,
-      "zOrder": 12,
+      "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1064,50 +1064,12 @@
       "name": "Cartas",
       "persistentUuid": "b11f29e1-ba19-4988-a964-db20251cbe77",
       "width": 320,
-      "x": 2112,
+      "x": 2016,
       "y": 128,
       "zOrder": 13,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Utilidades",
-      "name": "Dado3",
-      "persistentUuid": "6ad72b4d-7a6c-4a78-b6c3-f3f7991f30ec",
-      "width": 0,
-      "x": 2016,
-      "y": 224,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Utilidades",
-      "name": "Dado3",
-      "persistentUuid": "3471c4be-6d04-44fa-9fc1-a4bc7c481c69",
-      "width": 0,
-      "x": 2016,
-      "y": 448,
-      "zOrder": 14,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "name": "Numero",
-          "type": "number",
-          "value": 1
-        }
-      ]
     },
     {
       "angle": 0,
@@ -1119,10 +1081,15 @@
       "name": "Cartas",
       "persistentUuid": "61a60d29-ecb3-4e06-b740-ead9cff71501",
       "width": 320,
-      "x": 2112,
+      "x": 2016,
       "y": 352,
       "zOrder": 13,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
       "stringProperties": [],
       "initialVariables": [
         {
@@ -1142,36 +1109,24 @@
       "name": "Cartas",
       "persistentUuid": "60cfd872-ef7b-4bb3-80d3-b69b160a1a43",
       "width": 320,
-      "x": 2112,
+      "x": 2016,
       "y": 576,
       "zOrder": 13,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
+      "numberProperties": [
         {
-          "name": "ID",
-          "type": "number",
+          "name": "animation",
           "value": 2
         }
-      ]
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "keepRatio": true,
-      "layer": "Utilidades",
-      "name": "Dado3",
-      "persistentUuid": "144fd57a-fda8-43af-bd1c-9f49773843ed",
-      "width": 0,
-      "x": 2016,
-      "y": 672,
-      "zOrder": 14,
-      "numberProperties": [],
+      ],
       "stringProperties": [],
       "initialVariables": [
         {
-          "name": "Numero",
+          "name": "Tipo",
+          "type": "number",
+          "value": 2
+        },
+        {
+          "name": "ID",
           "type": "number",
           "value": 2
         }
@@ -1186,8 +1141,8 @@
       "layer": "Utilidades",
       "name": "Cartas2",
       "persistentUuid": "98939b68-6e25-43e0-ae76-e739ee5eef0c",
-      "width": 480,
-      "x": 1952,
+      "width": 384,
+      "x": 2048,
       "y": 64,
       "zOrder": 16,
       "numberProperties": [],
@@ -1238,8 +1193,41 @@
       "persistentUuid": "817a80b6-3c0d-4a1a-ab32-3a55b9e0b1a7",
       "width": 0,
       "x": 956,
-      "y": 746,
+      "y": 740,
       "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 224,
+      "layer": "",
+      "name": "Utilidades",
+      "persistentUuid": "6300ae29-d282-4828-a5db-76f148d6ac6c",
+      "width": 544,
+      "x": 1056,
+      "y": 832,
+      "zOrder": 22,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "Utilidades",
+      "name": "x",
+      "persistentUuid": "e1b8db1e-d64b-4207-9c44-d05733d15c9a",
+      "width": 64,
+      "x": 1952,
+      "y": 32,
+      "zOrder": 23,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -2640,7 +2628,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Cartas",
+          "name": "Copas",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -2649,7 +2637,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "2078291-fundo-de-papel-amassado-gratis-foto.jpg",
+                  "image": "assets\\cartas\\Copas.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2669,16 +2657,112 @@
                         "y": 0
                       },
                       {
-                        "x": 2940,
+                        "x": 1920,
                         "y": 0
                       },
                       {
-                        "x": 2940,
-                        "y": 1960
+                        "x": 1920,
+                        "y": 1080
                       },
                       {
                         "x": 0,
-                        "y": 1960
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "espadas",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cartas\\Espadas.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paus",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cartas\\Paus.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 0
+                      },
+                      {
+                        "x": 1920,
+                        "y": 1080
+                      },
+                      {
+                        "x": 0,
+                        "y": 1080
                       }
                     ]
                   ]
@@ -3478,7 +3562,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Voce",
       "preScale": 0.6,
@@ -3486,7 +3570,36 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "Health",
+          "type": "Health::Health",
+          "Health": 100,
+          "CurrentHealth": 0,
+          "MaxHealth": 100,
+          "DamageCooldown": 0.2,
+          "AllowOverHealing": false,
+          "IsHealthJustDamaged": false,
+          "DamageToBeApplied": 0,
+          "HitAtLeastOnce": false,
+          "ChanceToDodge": 0,
+          "IsJustDodged": false,
+          "HealToBeApplied": 0,
+          "HealthRegenRate": 0,
+          "HealthRegenDelay": 0,
+          "IsJustHealed": false,
+          "CurrentShieldPoints": 2.0247e-320,
+          "MaxShieldPoints": 0,
+          "ShieldDuration": 5,
+          "ShieldRegenRate": 0,
+          "BlockExcessDamage": false,
+          "ShieldRegenDelay": 0,
+          "IsShieldJustDamaged": false,
+          "ShieldDamageTaken": 2.0247e-320,
+          "FlatDamageReduction": 0,
+          "PercentDamageReduction": 0
+        }
+      ],
       "animations": [
         {
           "name": "Parado",
@@ -3515,19 +3628,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3551,19 +3664,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3599,19 +3712,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3647,19 +3760,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3683,19 +3796,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3731,19 +3844,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3767,19 +3880,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3815,19 +3928,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3863,19 +3976,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3899,19 +4012,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3947,19 +4060,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -3983,19 +4096,19 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 234,
-                        "y": 435
+                        "x": 322.5,
+                        "y": 533.5
                       },
                       {
-                        "x": 469,
-                        "y": 435
+                        "x": 411,
+                        "y": 530.5
                       },
                       {
-                        "x": 469,
+                        "x": 411,
                         "y": 720
                       },
                       {
-                        "x": 234,
+                        "x": 326,
                         "y": 720
                       }
                     ]
@@ -4253,6 +4366,67 @@
         "isCastingShadow": true,
         "isReceivingShadow": true
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "x",
+      "preScale": 0.1,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "X",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red_X_Freehand.svg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 53,
+                        "y": 14
+                      },
+                      {
+                        "x": 591,
+                        "y": 14
+                      },
+                      {
+                        "x": 591,
+                        "y": 591
+                      },
+                      {
+                        "x": 53,
+                        "y": 591
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4325,6 +4499,9 @@
       },
       {
         "objectName": "TiroGenerico"
+      },
+      {
+        "objectName": "x"
       }
     ]
   },
@@ -4361,7 +4538,7 @@
             "SuaVida",
             "Text",
             "=",
-            "ToString(Vida2)"
+            "ToString(Voce.Health::Health())"
           ]
         },
         {
@@ -4438,14 +4615,13 @@
       "actions": [
         {
           "type": {
-            "value": "Health::Health::SetMaxHealthOp"
+            "value": "SetStringObjectVariable"
           },
           "parameters": [
             "Personagens",
-            "Health",
+            "Tipo",
             "=",
-            "130",
-            ""
+            "Tipo"
           ]
         },
         {
@@ -4461,25 +4637,12 @@
         },
         {
           "type": {
-            "value": "SetNumberObjectVariable"
+            "value": "SetBooleanVariable"
           },
           "parameters": [
-            "Cartas",
-            "NumeroAAfetar",
-            "=",
-            "Random(6)"
-          ]
-        },
-        {
-          "type": {
-            "value": "PlayMusic"
-          },
-          "parameters": [
-            "",
-            "Orquestra do Caos.mp3",
-            "yes",
-            "100",
-            "1"
+            "EmBatalha",
+            "True",
+            ""
           ]
         }
       ]
@@ -4540,6 +4703,54 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "Voce",
+            "Perigo",
+            "256",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "Voce",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Voce",
+            "Animation",
+            "=",
+            "\"Medo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "Voce",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
       "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
@@ -4549,6 +4760,16 @@
           },
           "parameters": [
             "InAction",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "EnemyInAction",
             "False",
             ""
           ]
@@ -4640,6 +4861,7 @@
           ],
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Dado",
               "conditions": [
@@ -4658,154 +4880,345 @@
               "actions": [],
               "events": [
                 {
-                  "type": "BuiltinCommonInstructions::ForEach",
-                  "object": "Dado",
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::Name"
+                        "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Dado",
-                        "Animation",
-                        "!=",
-                        "\"LadoQuebrado\""
+                        "DamageBoost",
+                        "True",
+                        ""
                       ]
                     }
                   ],
-                  "actions": [
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "Dado.Numero / 2"
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Dado",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "Animation",
+                            "!=",
+                            "\"LadoQuebrado\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "Dado.Numero / 2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "Tween",
+                            "\"Mover\"",
+                            "992",
+                            "\"bouncePast\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "whoosh-sfx.mp3",
+                            "",
+                            "75",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "New sound effect",
+                            "",
+                            "100",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Personagens",
+                            "Health",
+                            "Dado.Animation::Index() * 2",
+                            "no",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Voce",
+                            "Animation",
+                            "=",
+                            "\"Acertou\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "Voce",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Personagens",
+                            "Animacao",
+                            "=",
+                            "\"atacado\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::DamageAnimation"
+                          },
+                          "parameters": [
+                            "Personagens",
+                            "BouceSpawn",
+                            "\"Horisontal\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::BoucingActivate"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "BouceSpawn",
+                            "\"Horisontal\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "Tween",
+                            "\"Mover\"",
+                            "1152",
+                            "\"bouncePast\"",
+                            "0.5",
+                            ""
+                          ]
+                        }
                       ]
-                    },
+                    }
+                  ]
+                },
+                {
+                  "folded": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
                     {
                       "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                        "value": "BooleanVariable"
                       },
                       "parameters": [
-                        "Dado",
-                        "Tween",
-                        "\"Mover\"",
-                        "992",
-                        "\"bouncePast\"",
-                        "1",
+                        "DamageBoost",
+                        "False",
                         ""
                       ]
-                    },
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
                     {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "whoosh-sfx.mp3",
-                        "",
-                        "75",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "PlaySound"
-                      },
-                      "parameters": [
-                        "",
-                        "New sound effect",
-                        "",
-                        "100",
-                        "1"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Health::Health::Hit"
-                      },
-                      "parameters": [
-                        "Personagens",
-                        "Health",
-                        "Dado.Animation::Index()",
-                        "no",
-                        "",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "Voce",
-                        "Animation",
-                        "=",
-                        "\"Acertou\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "ChangeSprite"
-                      },
-                      "parameters": [
-                        "Voce",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetStringObjectVariable"
-                      },
-                      "parameters": [
-                        "Personagens",
-                        "Animacao",
-                        "=",
-                        "\"atacado\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::DamageAnimation"
-                      },
-                      "parameters": [
-                        "Personagens",
-                        "BouceSpawn",
-                        "\"Horisontal\""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::BoucingActivate"
-                      },
-                      "parameters": [
-                        "Dado",
-                        "BouceSpawn",
-                        "\"Horisontal\"",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                      },
-                      "parameters": [
-                        "Dado",
-                        "Tween",
-                        "\"Mover\"",
-                        "1152",
-                        "\"bouncePast\"",
-                        "0.5",
-                        ""
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "Dado",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::Name"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "Animation",
+                            "!=",
+                            "\"LadoQuebrado\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "Dado.Numero / 2"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "Tween",
+                            "\"Mover\"",
+                            "992",
+                            "\"bouncePast\"",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "whoosh-sfx.mp3",
+                            "",
+                            "75",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Wait"
+                          },
+                          "parameters": [
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "PlaySound"
+                          },
+                          "parameters": [
+                            "",
+                            "New sound effect",
+                            "",
+                            "100",
+                            "1"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Health::Health::Hit"
+                          },
+                          "parameters": [
+                            "Personagens",
+                            "Health",
+                            "Dado.Animation::Index()",
+                            "no",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "Voce",
+                            "Animation",
+                            "=",
+                            "\"Acertou\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeSprite"
+                          },
+                          "parameters": [
+                            "Voce",
+                            "=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetStringObjectVariable"
+                          },
+                          "parameters": [
+                            "Personagens",
+                            "Animacao",
+                            "=",
+                            "\"atacado\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::DamageAnimation"
+                          },
+                          "parameters": [
+                            "Personagens",
+                            "BouceSpawn",
+                            "\"Horisontal\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::BoucingActivate"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "BouceSpawn",
+                            "\"Horisontal\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Dado",
+                            "Tween",
+                            "\"Mover\"",
+                            "1152",
+                            "\"bouncePast\"",
+                            "0.5",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ]
@@ -4925,12 +5338,15 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberVariable"
+                        "value": "Health::Health::Hit"
                       },
                       "parameters": [
-                        "Vida2",
-                        "-",
-                        "RandomInRange(1, 2)"
+                        "Voce",
+                        "Health",
+                        "RandomInRange(1, 2)",
+                        "no",
+                        "",
+                        ""
                       ]
                     },
                     {
@@ -4991,6 +5407,16 @@
                   },
                   "parameters": [
                     "(QuantidadeDeDados / 2) + 1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DamageBoost",
+                    "False",
+                    ""
                   ]
                 },
                 {
@@ -5061,6 +5487,64 @@
           "conditions": [
             {
               "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Utilidades",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+              },
+              "parameters": [
+                "Dado",
+                "Animation",
+                "=",
+                "Random(6)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "InAction",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Coisas",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
               },
               "parameters": [
@@ -5079,6 +5563,341 @@
                 "Animation",
                 "=",
                 "\"Parado\""
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CameraCenterX"
+          },
+          "parameters": [
+            "",
+            ">",
+            "960",
+            "\"Utilidades\"",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Coisas",
+            "False",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "-",
+            "20",
+            "\"Utilidades\"",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "Coisas",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CameraCenterX"
+              },
+              "parameters": [
+                "",
+                "<",
+                "1500",
+                "\"Utilidades\"",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "+",
+                "20",
+                "\"Utilidades\"",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Cartas",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Coisas",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetStringObjectVariable"
+                  },
+                  "parameters": [
+                    "Personagens",
+                    "Animacao",
+                    "=",
+                    "\"ataca\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimasaoDeEntrarEVoltar::BouceSpawn::BoucingActivate"
+                  },
+                  "parameters": [
+                    "Personagens",
+                    "BouceSpawn",
+                    "\"Horisontal\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EnemyInAction",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Voce",
+                    "Animation",
+                    "=",
+                    "\"SeProtejendo\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Cartas",
+                    "ID",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Health::Health::Heal"
+                  },
+                  "parameters": [
+                    "Voce",
+                    "Health",
+                    "10",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Cartas",
+                    "ID",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "DamageBoost",
+                    "True",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Cartas",
+                    "ID",
+                    "=",
+                    "2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "QuantidadeDeDados",
+                    "+",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "x",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Coisas",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "InAction",
+                "False",
+                ""
               ]
             }
           ]
@@ -5148,37 +5967,6 @@
           "conditions": [
             {
               "type": {
-                "value": "CameraCenterX"
-              },
-              "parameters": [
-                "",
-                "<",
-                "1500",
-                "\"Utilidades\"",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "+",
-                "20",
-                "\"Utilidades\"",
-                "0"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -5209,7 +5997,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -5224,40 +6011,7 @@
           ]
         }
       ],
-      "actions": [],
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CameraCenterX"
-              },
-              "parameters": [
-                "",
-                ">",
-                "960",
-                "\"Utilidades\"",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetCameraCenterX"
-              },
-              "parameters": [
-                "",
-                "-",
-                "20",
-                "\"Utilidades\"",
-                "0"
-              ]
-            }
-          ]
-        }
-      ]
+      "actions": []
     },
     {
       "folded": true,
@@ -5286,9 +6040,49 @@
             "=",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::SetMaxHealthOp"
+          },
+          "parameters": [
+            "Personagens",
+            "Health",
+            "=",
+            "60",
+            ""
+          ]
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Pixel Brawl.mp3",
+                "-1",
+                "yes",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
@@ -5326,12 +6120,15 @@
             },
             {
               "type": {
-                "value": "SetNumberVariable"
+                "value": "Health::Health::Hit"
               },
               "parameters": [
-                "Vida2",
-                "-",
-                "Personagens.Dano"
+                "Voce",
+                "Health",
+                "Personagens.Dano",
+                "no",
+                "",
+                ""
               ]
             },
             {
@@ -5488,7 +6285,6 @@
       ]
     },
     {
-      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -5514,9 +6310,49 @@
             "=",
             "5"
           ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::SetMaxHealthOp"
+          },
+          "parameters": [
+            "Personagens",
+            "Health",
+            "=",
+            "170",
+            ""
+          ]
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "Bar Pixelado.mp3",
+                "-1",
+                "yes",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
@@ -7381,16 +8217,6 @@
       "actions": [
         {
           "type": {
-            "value": "SetNumberVariable"
-          },
-          "parameters": [
-            "Vida2",
-            "-",
-            "Personagens.Dano"
-          ]
-        },
-        {
-          "type": {
             "value": "Delete"
           },
           "parameters": [
@@ -7398,6 +8224,46 @@
             ""
           ]
         },
+        {
+          "type": {
+            "value": "Health::Health::Hit"
+          },
+          "parameters": [
+            "Voce",
+            "Health",
+            "Personagens.Dano",
+            "no",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::IsJustDamaged"
+          },
+          "parameters": [
+            "Voce",
+            "Health",
+            "="
+          ]
+        },
+        {
+          "type": {
+            "value": "BooleanVariable"
+          },
+          "parameters": [
+            "EnemyInAction",
+            "True",
+            ""
+          ]
+        }
+      ],
+      "actions": [
         {
           "type": {
             "value": "PlaySound"
@@ -7484,7 +8350,7 @@
             "Escudo",
             "Opacity",
             "+",
-            "3"
+            "10"
           ]
         }
       ]
@@ -7513,45 +8379,6 @@
             "Opacity",
             "-",
             "3"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "Distance"
-          },
-          "parameters": [
-            "Voce",
-            "Perigo",
-            "128",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-          },
-          "parameters": [
-            "Voce",
-            "Animation",
-            "=",
-            "\"Medo\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ChangeSprite"
-          },
-          "parameters": [
-            "Voce",
-            "=",
-            "0"
           ]
         }
       ]
@@ -7590,6 +8417,76 @@
             "Animation",
             "=",
             "\"SeProtejendo\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::IsDead"
+          },
+          "parameters": [
+            "Personagens",
+            "Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "Vitorioso",
+            "True",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Health::Health::IsDead"
+          },
+          "parameters": [
+            "Voce",
+            "Health",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SetBooleanVariable"
+          },
+          "parameters": [
+            "Vitorioso",
+            "False",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PopScene"
+          },
+          "parameters": [
+            ""
           ]
         }
       ]
