@@ -401,6 +401,70 @@
         "name": "assets\\NewSprite.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Pparado0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Pparado0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Pparado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Pparado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Player0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Player0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Player0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Player0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Player0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Player0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Player0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Player0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Player0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Player0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/UiMedo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\UiMedo.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
