@@ -561,6 +561,80 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/MD/parado0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MD\\parado0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MD/parado0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MD\\parado0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MD/parado0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MD\\parado0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MD/parado0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MD\\parado0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Caos Azul.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Caos Azul.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "frame_00019.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_00019.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame_00022.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_00022.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame_00021.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_00021.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "frame_00009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "frame_00009.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -579,7 +653,7 @@
     {
       "name": "Tipo",
       "type": "string",
-      "value": "ASriel"
+      "value": "Jul10 Duart3"
     },
     {
       "name": "EmBatalha",
