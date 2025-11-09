@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 244,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -70,7 +70,7 @@
       "progressBarMaxWidth": 200,
       "progressBarMinWidth": 40,
       "progressBarWidthPercent": 30,
-      "showGDevelopSplash": true,
+      "showGDevelopSplash": false,
       "showProgressBar": true
     },
     "watermark": {
@@ -635,15 +635,3704 @@
         "name": "frame_00009.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Floresta0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Floresta0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Floresta0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Floresta0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "2078291-fundo-de-papel-amassado-gratis-foto2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "2078291-fundo-de-papel-amassado-gratis-foto2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "template.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "template.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "with-indices.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "with-indices.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Casinha1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Casinha1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "caminho.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "caminho.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TiroGenerico.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\TiroGenerico.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Explorando o Infinito2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Explorando o Infinito2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Pixelated Heartbeat.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Pixelated Heartbeat.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "EscudoReflet.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "EscudoReflet.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "EscudoEffect1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "EscudoEffect1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Attaked =(.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Attaked =(.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "RardSlap.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "RardSlap.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ops.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ops.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Damage1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Damage1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Andando pelo cenario/AndarFrente0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Andando pelo cenario/AndarFrente0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Andando pelo cenario/AndarLado0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Andando pelo cenario\\AndarLado0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Andando pelo cenario/AndarLado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Andando pelo cenario\\AndarLado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Andando pelo cenario/AndarTraz0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/Andando pelo cenario/AndarTraz0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dadinho/DAndarFrente0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dadinho\\DAndarFrente0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dadinho/DAndarFrente0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dadinho\\DAndarFrente0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dialog/KeoDialog0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialog\\KeoDialog0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dialog/DadinhoDialog0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialog\\DadinhoDialog0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Luta no Caos.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Luta no Caos.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cenario/arvores.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cenario\\arvores.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dialog/SRtutorialDialog.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Dialog\\SRtutorialDialog.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Candy Clouds Clash.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Candy Clouds Clash.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "—Pngtree—white blank spiral notebook_1571407.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "—Pngtree—white blank spiral notebook_1571407.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "part-206-what-are-your-thoughts-on-the-radiance-v0-9v4m4nevwoi91.webp",
+        "kind": "image",
+        "metadata": "",
+        "name": "part-206-what-are-your-thoughts-on-the-radiance-v0-9v4m4nevwoi91.webp",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial/luta.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial\\luta.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial/defesa.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial\\defesa.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial/ProjeteisAzuis.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial\\ProjeteisAzuis.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial/Cartas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial\\Cartas.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial/amigos.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial\\amigos.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tutorial/Fuga.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tutorial\\Fuga.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/TiroGenerico3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TiroGenerico3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/parado0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\parado0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHparado0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHparado0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHparado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHparado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHparado0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHparado0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHataca0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHataca0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHataca0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHataca0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHataca0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHataca0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHataca0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHataca0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHataca0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHataca0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHatacado0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHatacado0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHatacado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHatacado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHatacado0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHatacado0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHatacado0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHatacado0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHatacado0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHatacado0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHatacado0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHatacado0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHmorto0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHmorto0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Static Scrimmage.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Static Scrimmage.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHparadoc0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHparadoc0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHparadoc0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHparadoc0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHparadoc0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHparadoc0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0007.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0008.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0009.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0010.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RabiscoHumanoid/RHnervosoC0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\RabiscoHumanoid\\RHnervosoC0011.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Scribble Shadows.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Scribble Shadows.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cenario/FlorestaInfestada10000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cenario\\FlorestaInfestada10000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cenario/FlorestaInfestada10001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cenario\\FlorestaInfestada10001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRparadoc0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRparadoc0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRparadoc0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRparadoc0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRparadoc0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRparadoc0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRcacandoC0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRcacandoC0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRcacandoC0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRcacandoC0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRparado0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRparado0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRparado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRparado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRparado0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRparado0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRpreparando0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRpreparando0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRpreparando0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRpreparando0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRpreparando0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRpreparando0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRpreparando0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRpreparando0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRatacando0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRatacando0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRatacando0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRatacando0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRatacando0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRatacando0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRdano0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRdano0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRdano0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRdano0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRdano0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRdano0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRdano0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRdano0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cavaleiro rabiscado/CRdano0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cavaleiro rabiscado\\CRdano0004.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "ArvoresSomosNoses",
+      "preScale": 0.5,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "ArvoresSomosNoses1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cenario\\arvores.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 356,
+                    "y": 568.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 356,
+                    "y": 568.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 288,
+                        "y": 604.5
+                      },
+                      {
+                        "x": 419,
+                        "y": 608
+                      },
+                      {
+                        "x": 457,
+                        "y": 663
+                      },
+                      {
+                        "x": 349.5,
+                        "y": 698
+                      },
+                      {
+                        "x": 248.5,
+                        "y": 664.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Colisoes",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Event",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
+        }
+      ],
+      "animations": [
+        {
+          "name": "Detequitor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 720,
+                        "y": 0
+                      },
+                      {
+                        "x": 720,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Detequitor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Event",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Detequitor",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\NewSprite.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 720,
+                        "y": 0
+                      },
+                      {
+                        "x": 720,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Camera",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Bioma",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite3",
+                  "points": [
+                    {
+                      "name": "Point",
+                      "x": 480,
+                      "y": 270
+                    }
+                  ],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 480,
+                        "y": 0
+                      },
+                      {
+                        "x": 480,
+                        "y": 270
+                      },
+                      {
+                        "x": 0,
+                        "y": 270
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Caminho",
+      "texture": "caminho.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "ColorReplace",
+          "name": "Effect",
+          "doubleParameters": {
+            "epsilon": 1
+          },
+          "stringParameters": {
+            "newColor": "192;128;67",
+            "originalColor": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "ObjetosDeCenario",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Casa1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Casinha1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360.5,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 114,
+                        "y": 447
+                      },
+                      {
+                        "x": 627.5,
+                        "y": 439
+                      },
+                      {
+                        "x": 633.5,
+                        "y": 694.5
+                      },
+                      {
+                        "x": 116,
+                        "y": 690
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fundo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Fundo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "2078291-fundo-de-papel-amassado-gratis-foto.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 2940,
+                        "y": 0
+                      },
+                      {
+                        "x": 2940,
+                        "y": 1960
+                      },
+                      {
+                        "x": 0,
+                        "y": 1960
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Dadinho",
+      "preScale": 0.5,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 9000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 700,
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "AndarFrente",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dadinho\\DAndarFrente0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 217,
+                        "y": 297
+                      },
+                      {
+                        "x": 476,
+                        "y": 297
+                      },
+                      {
+                        "x": 476,
+                        "y": 550
+                      },
+                      {
+                        "x": 217,
+                        "y": 550
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dadinho\\DAndarFrente0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 217,
+                        "y": 297
+                      },
+                      {
+                        "x": 476,
+                        "y": 297
+                      },
+                      {
+                        "x": 476,
+                        "y": 550
+                      },
+                      {
+                        "x": 217,
+                        "y": 550
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Keo",
+      "preScale": 0.5,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 10000,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "maxSpeed": 700,
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "maxSpeed": 700,
+          "acceleration": 10000,
+          "deceleration": 10000,
+          "angleOffset": 0,
+          "ignoreDefaultControls": true,
+          "allowDiagonals": true,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "useLegacyTurnBack": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Parado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 251,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 548
+                      },
+                      {
+                        "x": 251,
+                        "y": 548
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AndarFrente",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 251,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 548
+                      },
+                      {
+                        "x": 251,
+                        "y": 548
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 251,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 548
+                      },
+                      {
+                        "x": 251,
+                        "y": 548
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AndarLado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarLado0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 251,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 548
+                      },
+                      {
+                        "x": 251,
+                        "y": 548
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarLado0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 251,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 548
+                      },
+                      {
+                        "x": 251,
+                        "y": 548
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AndarTraz",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.16,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 251,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 548
+                      },
+                      {
+                        "x": 251,
+                        "y": 548
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 358.5
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 251,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 290
+                      },
+                      {
+                        "x": 441,
+                        "y": 548
+                      },
+                      {
+                        "x": 251,
+                        "y": 548
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "Dialogo",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.01,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "Dialogo",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 10,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Dialogo",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "NomeDeDialogos",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Eduardo Amaral da solsa",
+      "font": "",
+      "textAlignment": "center",
+      "characterSize": 30,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 10,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Eduardo Amaral da solsa",
+        "font": "",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 30,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "DialogoFundo2",
+      "rightMargin": 0,
+      "texture": "notebook-paper-background-u93ahfi8co4epvd6.jpg",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "DialogoFundo",
+      "rightMargin": 0,
+      "texture": "notebook-paper-background-u93ahfi8co4epvd6.jpg",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 0,
+      "height": 32,
+      "leftMargin": 0,
+      "name": "DialogoFundo3",
+      "rightMargin": 0,
+      "texture": "notebook-paper-background-u93ahfi8co4epvd6.jpg",
+      "tiled": true,
+      "topMargin": 0,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "PersonagensDialogo",
+      "preScale": 0.3,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Keo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dialog\\KeoDialog0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 570
+                      },
+                      {
+                        "x": 131,
+                        "y": 570
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dadinho",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dialog\\DadinhoDialog0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 570
+                      },
+                      {
+                        "x": 131,
+                        "y": 570
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SRtutorial",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dialog\\SRtutorialDialog.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 570
+                      },
+                      {
+                        "x": 131,
+                        "y": 570
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dandon",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Dialog\\DadinhoDialog0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 131,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 175
+                      },
+                      {
+                        "x": 550,
+                        "y": 570
+                      },
+                      {
+                        "x": 131,
+                        "y": 570
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ASriel",
+      "preScale": 0.25,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BlocoPreto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BP\\BP parado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MRsDandun",
+      "preScale": 0.5,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BlocoPreto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BP\\BP parado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Jul10Duart3",
+      "preScale": 0.25,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BlocoPreto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BP\\BP parado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "FolinhaInimigo",
+      "preScale": 0.25,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BlocoPreto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BP\\BP parado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BlocoPreto",
+      "preScale": 0.25,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BlocoPreto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BP\\BP parado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Sr_tutorial",
+      "preScale": 0.4,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BlocoPreto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BP\\BP parado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "SRtutorialNaoInimigo",
+      "preScale": 0.4,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BlocoPreto",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\BP\\BP parado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "RabiscoHumanoid",
+      "preScale": 0.5,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Parado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHparadoc0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHparadoc0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHparadoc0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Nervoso",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.047619047619047616,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0006.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0007.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0008.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perceguir",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0009.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0010.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\RabiscoHumanoid\\RHnervosoC0011.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 259,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 284
+                      },
+                      {
+                        "x": 409,
+                        "y": 504
+                      },
+                      {
+                        "x": 259,
+                        "y": 504
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "CavaleiroRabiscado",
+      "preScale": 0.5,
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "EmAtaque",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Parado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cavaleiro rabiscado\\CRparadoc0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 290,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 499
+                      },
+                      {
+                        "x": 290,
+                        "y": 499
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cavaleiro rabiscado\\CRparadoc0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 290,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 499
+                      },
+                      {
+                        "x": 290,
+                        "y": 499
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cavaleiro rabiscado\\CRparadoc0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 290,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 499
+                      },
+                      {
+                        "x": 290,
+                        "y": 499
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Perceguir",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.04,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cavaleiro rabiscado\\CRcacandoC0000.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 290,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 499
+                      },
+                      {
+                        "x": 290,
+                        "y": 499
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\cavaleiro rabiscado\\CRcacandoC0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 290,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 240
+                      },
+                      {
+                        "x": 439,
+                        "y": 499
+                      },
+                      {
+                        "x": 290,
+                        "y": 499
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "folderName": "Cenario",
+        "children": [
+          {
+            "objectName": "ArvoresSomosNoses"
+          },
+          {
+            "objectName": "Fundo"
+          },
+          {
+            "objectName": "Caminho"
+          },
+          {
+            "objectName": "ObjetosDeCenario"
+          }
+        ]
+      },
+      {
+        "folderName": "Dialogos",
+        "children": [
+          {
+            "objectName": "NomeDeDialogos"
+          },
+          {
+            "objectName": "PersonagensDialogo"
+          },
+          {
+            "objectName": "DialogoFundo"
+          },
+          {
+            "objectName": "DialogoFundo3"
+          },
+          {
+            "objectName": "DialogoFundo2"
+          }
+        ]
+      },
+      {
+        "folderName": "Inimigos",
+        "children": [
+          {
+            "objectName": "FolinhaInimigo"
+          },
+          {
+            "objectName": "BlocoPreto"
+          },
+          {
+            "objectName": "RabiscoHumanoid"
+          },
+          {
+            "objectName": "CavaleiroRabiscado"
+          },
+          {
+            "objectName": "Jul10Duart3"
+          },
+          {
+            "objectName": "MRsDandun"
+          },
+          {
+            "objectName": "ASriel"
+          },
+          {
+            "objectName": "Sr_tutorial"
+          }
+        ]
+      },
+      {
+        "objectName": "Colisoes"
+      },
+      {
+        "objectName": "Detequitor"
+      },
+      {
+        "objectName": "SRtutorialNaoInimigo"
+      },
+      {
+        "objectName": "Camera"
+      },
+      {
+        "objectName": "Keo"
+      },
+      {
+        "objectName": "Dialogo"
+      },
+      {
+        "objectName": "Dadinho"
+      }
+    ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "Inimgios",
+      "objects": [
+        {
+          "name": "BlocoPreto"
+        },
+        {
+          "name": "MRsDandun"
+        },
+        {
+          "name": "ASriel"
+        },
+        {
+          "name": "Jul10Duart3"
+        },
+        {
+          "name": "FolinhaInimigo"
+        },
+        {
+          "name": "Sr_tutorial"
+        },
+        {
+          "name": "RabiscoHumanoid"
+        },
+        {
+          "name": "CavaleiroRabiscado"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "name": "Vitorioso",
@@ -659,6 +4348,21 @@
       "name": "EmBatalha",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "Amigo1",
+      "type": "string",
+      "value": "nd"
+    },
+    {
+      "name": "Amigo2",
+      "type": "string",
+      "value": "nd"
+    },
+    {
+      "name": "Area",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
@@ -668,10 +4372,19 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/local1"
+      "referenceTo": "/layouts/viladosdados"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/florestainfestada"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/cenarios"
+    }
+  ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -692,6 +4405,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/shakeobject"
     }
   ],
   "externalLayouts": []
