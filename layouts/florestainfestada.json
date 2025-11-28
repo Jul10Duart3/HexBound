@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2368956372544678,
+    "zoomFactor": 0.36458333333333687,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -19616,23 +19616,9 @@
         },
         {
           "type": {
-            "value": "BooleanVariable"
+            "value": "BuiltinCommonInstructions::Once"
           },
-          "parameters": [
-            "EmDialogo",
-            "False",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "NumberVariable"
-          },
-          "parameters": [
-            "DialogoLevelGlobal",
-            "=",
-            "1"
-          ]
+          "parameters": []
         }
       ],
       "actions": [
@@ -19669,6 +19655,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -19757,6 +19744,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -20415,7 +20403,7 @@
                   "parameters": [
                     "Level",
                     "=",
-                    "6"
+                    "5"
                   ]
                 },
                 {
@@ -20517,7 +20505,7 @@
                   "parameters": [
                     "Level",
                     "=",
-                    "5"
+                    "4"
                   ]
                 },
                 {
@@ -20596,7 +20584,7 @@
                   "parameters": [
                     "Level",
                     "=",
-                    "6"
+                    "5"
                   ]
                 }
               ]
@@ -20611,7 +20599,7 @@
                   "parameters": [
                     "Level",
                     "=",
-                    "4"
+                    "3"
                   ]
                 },
                 {
@@ -20690,7 +20678,7 @@
                   "parameters": [
                     "Level",
                     "=",
-                    "5"
+                    "4"
                   ]
                 }
               ]
@@ -21258,7 +21246,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": false,
+      "isLocked": true,
       "name": "",
       "renderingType": "",
       "visibility": true,
@@ -21389,7 +21377,7 @@
       "cameraType": "",
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
-      "isLocked": true,
+      "isLocked": false,
       "name": "Hud",
       "renderingType": "",
       "visibility": true,

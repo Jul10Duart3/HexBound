@@ -2704,6 +2704,24 @@
         "name": "sentopeiaAtira4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Castelo das Sombras.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Castelo das Sombras.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "fundo de papel gurme.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundo de papel gurme.jpeg",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -6082,6 +6100,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Fundo2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Fundo2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fundo de papel gurme.jpeg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 3000,
+                        "y": 0
+                      },
+                      {
+                        "x": 3000,
+                        "y": 2000
+                      },
+                      {
+                        "x": 0,
+                        "y": 2000
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -6095,6 +6173,9 @@
           },
           {
             "objectName": "Fundo"
+          },
+          {
+            "objectName": "Fundo2"
           },
           {
             "objectName": "Caminho"
