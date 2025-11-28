@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.1539278892348383,
+    "snap": true,
+    "zoomFactor": 0.34118560234735856,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -43,6 +43,11 @@
       "name": "DialogoLevelGlobal",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "Voltou",
+      "type": "boolean",
+      "value": false
     }
   ],
   "instances": [
@@ -695,8 +700,8 @@
       "name": "Keo",
       "persistentUuid": "ea7d7162-ded1-4fe6-980c-98bcd0b2055d",
       "width": 0,
-      "x": 1036,
-      "y": 467,
+      "x": 1080,
+      "y": 473,
       "zOrder": 19,
       "numberProperties": [],
       "stringProperties": [],
@@ -9510,6 +9515,23 @@
           "value": 8
         }
       ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "keepRatio": true,
+      "layer": "Hud",
+      "name": "VoceFoiSalvo",
+      "persistentUuid": "427edd36-a264-4cf3-82f9-b46cd59b786e",
+      "width": 160,
+      "x": 32,
+      "y": 32,
+      "zOrder": 53,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [],
@@ -9696,6 +9718,45 @@
             "100",
             "1"
           ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"Save\"",
+            "\"Mundo\"",
+            "0"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "Progresso",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Progresso",
+                "=",
+                "1"
+              ]
+            }
+          ]
         }
       ]
     },
@@ -9715,6 +9776,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -11534,7 +11596,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13353,6 +13414,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13400,7 +13462,7 @@
                   "parameters": [
                     "Level",
                     "=",
-                    "12"
+                    "16"
                   ]
                 },
                 {
@@ -13411,7 +13473,7 @@
                     "Dialogo",
                     "Text",
                     "=",
-                    "\"Eu nunca concordei com isso!!\""
+                    "\"foi um prazer não lavar sua louça\""
                   ]
                 },
                 {
@@ -13451,18 +13513,6 @@
                 },
                 {
                   "type": {
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "MRsDandun",
-                    "=",
-                    "Keo.X()",
-                    "=",
-                    "Keo.Y()"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -13479,6 +13529,430 @@
                     "DialogoLevelGlobal",
                     "=",
                     "4"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"foi um prazer lutar contra o senhor\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PersonagensDialogo",
+                    "Animation",
+                    "=",
+                    "\"Dadinho\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "MRsDandun",
+                    "=",
+                    "Keo.X()",
+                    "=",
+                    "Keo.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"foi um prazer não lavar sua louça\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NomeDeDialogos",
+                    "Text",
+                    "=",
+                    "\"Dadinho\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "16"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "14"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"podem irem, mas se lembre, sempre estarei aqui para ajudar\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PersonagensDialogo",
+                    "Animation",
+                    "=",
+                    "\"Keo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "MRsDandun",
+                    "=",
+                    "Keo.X()",
+                    "=",
+                    "Keo.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"foi um prazer lutar contra o senhor\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NomeDeDialogos",
+                    "Text",
+                    "=",
+                    "\"Keo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "15"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "13"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"uf uf, é vocês ganharam...\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PersonagensDialogo",
+                    "Animation",
+                    "=",
+                    "\"Dandon\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "MRsDandun",
+                    "=",
+                    "Keo.X()",
+                    "=",
+                    "Keo.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"podem irem, mas se lembre, sempre estarei aqui para ajudar\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NomeDeDialogos",
+                    "Text",
+                    "=",
+                    "\"Mr dandon\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "14"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::Value"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"Eu nunca concordei com isso!!\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnyKeyReleased"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Dialogo\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "PersonagensDialogo",
+                    "Animation",
+                    "=",
+                    "\"Dandon\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "MRsDandun",
+                    "=",
+                    "Keo.X()",
+                    "=",
+                    "Keo.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Dialogo",
+                    "Text",
+                    "=",
+                    "\"uf uf, é vocês ganharam...\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "NomeDeDialogos",
+                    "Text",
+                    "=",
+                    "\"Mr dandon\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Level",
+                    "=",
+                    "13"
                   ]
                 }
               ]
@@ -14595,6 +15069,7 @@
       ]
     },
     {
+      "folded": true,
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
@@ -14770,6 +15245,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -14834,6 +15310,7 @@
       "ambientLightColorB": 200,
       "ambientLightColorG": 200,
       "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 3,
@@ -14843,7 +15320,7 @@
       "isLocked": false,
       "name": "Dialogo",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -14857,6 +15334,60 @@
             "color": "0;0;0"
           },
           "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera2DPlaneMaxDrawingDistance": 5000,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Hud",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Ambient Hemisphere Light",
+          "doubleParameters": {
+            "elevation": 40,
+            "intensity": 0.33,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "groundColor": "127;127;127",
+            "skyColor": "255;255;255",
+            "top": "Z+"
+          },
+          "booleanParameters": {}
+        },
+        {
+          "effectType": "Scene3D::DirectionalLight",
+          "name": "3D Sun Light",
+          "doubleParameters": {
+            "distanceFromCamera": 1500,
+            "elevation": 40,
+            "frustumSize": 4000,
+            "intensity": 0.75,
+            "minimumShadowBias": 0,
+            "rotation": 300
+          },
+          "stringParameters": {
+            "color": "255;255;255",
+            "shadowQuality": "medium",
+            "top": "Z+"
+          },
+          "booleanParameters": {
+            "isCastingShadow": true
+          }
         }
       ]
     }
@@ -14897,6 +15428,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "ShakeObject_PositionAngle",
+      "type": "ShakeObject::ShakeObject_PositionAngle"
     },
     {
       "name": "Text",

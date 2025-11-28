@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 245,
+    "build": 247,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -80,7 +80,10 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile",
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -1507,9 +1510,1202 @@
         "name": "assets\\cavaleiro rabiscado\\CRdano0004.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Sentopeia Rabiscada/SRparado0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sentopeia Rabiscada\\SRparado0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sentopeia Rabiscada/SRparado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sentopeia Rabiscada\\SRparado0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Sentopeia Rabiscada/SRparado0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Sentopeia Rabiscada\\SRparado0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Static Clash.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Static Clash.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cenario/CenarioNaoLegal0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cenario\\CenarioNaoLegal0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/cenario/CenarioNaoLegal0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\cenario\\CenarioNaoLegal0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/ataque0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\ataque0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/ataque0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\ataque0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/ataque0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\ataque0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/ataque0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\ataque0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/ataque0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\ataque0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/erro0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\erro0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/erro0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\erro0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/erro0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\erro0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/erro0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\erro0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/erro0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Jogador\\erro0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Black Decorated Button_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/8a9f8afaf0442f49cd7d5318d31ac6117137ec91d9086e9bdd59b052a4fa71f0_Black Decorated Button_Hovered.png",
+          "name": "Black Decorated Button_Hovered.png"
+        }
+      },
+      {
+        "file": "assets/Black Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/6652cc81d33cb5485e0bf19ed2a92aac70b5c9fb45837762d094c8dbecc30d4d_Black Decorated Button_Idle.png",
+          "name": "Black Decorated Button_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Black Decorated Button_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Black Decorated Button_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/61997299d1d329fff69772b1111ba7c07b6c0a96a9a17090d2bf2cc31ff08e00_Black Decorated Button_Pressed.png",
+          "name": "Black Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/ArchitectsDaughter.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ArchitectsDaughter.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ab812c7d15ad3474b6e55761235713b68f34374f3f064d1b8685ed46720df2f8_ArchitectsDaughter.ttf",
+          "name": "ArchitectsDaughter.ttf"
+        }
+      },
+      {
+        "file": "Start Story.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Start Story.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "you idiot.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "you idiot.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "Signatura Monoline.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Signatura Monoline.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/saves/saves0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\saves\\saves0000.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/saves/saves0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\saves\\saves0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/saves/saves0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\saves\\saves0002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/saves/saves0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\saves\\saves0003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/saves/saves0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\saves\\saves0004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Parado10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Parado10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Ataca7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Ataca7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/atacado9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\atacado9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Tela+azul/Morte11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Tela+azul\\Morte11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Digital Haunt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Digital Haunt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Digital Haunt2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Digital Haunt2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../Music/Hexbound/Digital Haunt.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "..\\..\\..\\..\\Music\\Hexbound\\Digital Haunt.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Parado12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Parado12.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Atacado11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Atacado11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Ataque1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Ataque1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Ataque2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Ataque2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Ataque3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Ataque3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Ataque4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Ataque4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Ataque5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Ataque5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Ataque6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Ataque6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/Morte10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\Morte10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Nightmare Carousel.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Nightmare Carousel.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Fantoche/bAtacado11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Fantoche\\bAtacado11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Puppet Strings and Paper Kings.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Puppet Strings and Paper Kings.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Static Clash (Cover).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Static Clash (Cover).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante.png\"}",
+        "name": "SentopeiaRajante",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante2.png\"}",
+        "name": "SentopeiaRajante2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante3.png\"}",
+        "name": "SentopeiaRajante3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante4.png\"}",
+        "name": "SentopeiaRajante4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante5.png\"}",
+        "name": "SentopeiaRajante5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante6.png\"}",
+        "name": "SentopeiaRajante6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante7.png\"}",
+        "name": "SentopeiaRajante7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/SentopeiaRajante8.png\"}",
+        "name": "SentopeiaRajante8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sentopeiaAtira.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sentopeiaAtira",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sentopeiaAtira2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sentopeiaAtira2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sentopeiaAtira3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sentopeiaAtira3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sentopeiaAtira4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "sentopeiaAtira4",
+        "smoothed": true,
+        "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
@@ -1521,7 +2717,12 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
       "animations": [
         {
           "name": "ArvoresSomosNoses1",
@@ -4208,6 +5409,679 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "VoceFoiSalvo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "VoceFoiSalvo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":11,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":11,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5],[6],[7],[8],[9],[10]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"NewSprite6\",\"NewSprite7\",\"NewSprite8\",\"NewSprite9\",\"NewSprite10\",\"NewSprite11\",\"NewSprite12\",\"NewSprite13\",\"NewSprite14\",\"NewSprite15\",\"NewSprite16\"],\"name\":\"NewSprite\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite12",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 4
+                      },
+                      {
+                        "x": 63,
+                        "y": 59
+                      },
+                      {
+                        "x": 0,
+                        "y": 59
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4299,6 +6173,9 @@
       },
       {
         "objectName": "Dadinho"
+      },
+      {
+        "objectName": "VoceFoiSalvo"
       }
     ]
   },
@@ -4340,9 +6217,14 @@
       "value": false
     },
     {
+      "name": "Covarde",
+      "type": "boolean",
+      "value": false
+    },
+    {
       "name": "Tipo",
       "type": "string",
-      "value": "Jul10 Duart3"
+      "value": "Tela Azul"
     },
     {
       "name": "EmBatalha",
@@ -4362,10 +6244,53 @@
     {
       "name": "Area",
       "type": "number",
+      "value": 2
+    },
+    {
+      "name": "Progresso",
+      "type": "number",
       "value": 0
+    },
+    {
+      "name": "VidaSobrada",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "VidaDeJogador",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "name": "QuantidadeDeDados",
+      "type": "number",
+      "value": 2
+    },
+    {
+      "name": "DamageMultiplication",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "name": "Xp",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "name": "LevelDoJogador",
+      "type": "number",
+      "value": 1
     }
   ],
   "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/telademorte"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/cena-sem-ttulo"
@@ -4377,6 +6302,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/florestainfestada"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/castelodoasriel"
     }
   ],
   "externalEvents": [
@@ -4413,6 +6342,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/shakeobject"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
     }
   ],
   "externalLayouts": []

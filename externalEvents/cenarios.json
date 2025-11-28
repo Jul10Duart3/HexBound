@@ -13,6 +13,51 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Vitorioso",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "EmBatalha",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Covarde",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
             {
@@ -241,52 +286,6 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
-                  },
-                  "parameters": [
-                    "Vitorioso",
-                    "True",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Inimgios",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "EmBatalha",
-                    "False",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetBooleanVariable"
-                  },
-                  "parameters": [
-                    "Vitorioso",
-                    "False",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
                     "value": "BooleanObjectVariable"
                   },
                   "parameters": [
@@ -327,7 +326,7 @@
                   },
                   "parameters": [
                     "Vitorioso",
-                    "=",
+                    "True",
                     ""
                   ]
                 }
@@ -335,10 +334,11 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Wait"
+                    "value": "Delete"
                   },
                   "parameters": [
-                    "1"
+                    "Inimgios",
+                    ""
                   ]
                 },
                 {
@@ -356,7 +356,82 @@
                     "value": "SetBooleanVariable"
                   },
                   "parameters": [
+                    "Voltou",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Covarde",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
                     "Vitorioso",
+                    "False",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "Covarde",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Covarde",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "EmBatalha",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Voltou",
                     "False",
                     ""
                   ]
@@ -368,6 +443,16 @@
                   "parameters": [
                     "Inimgios",
                     "EmAtaque",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Vitorioso",
                     "False",
                     ""
                   ]
@@ -416,6 +501,24 @@
                   "parameters": [
                     "Inimgios",
                     "EmAtaque",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanVariable"
+                  },
+                  "parameters": [
+                    "Voltou",
                     "True",
                     ""
                   ]
@@ -813,6 +916,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Keo",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -1348,6 +1452,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "RabiscoHumanoid",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1467,6 +1572,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "CavaleiroRabiscado",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -1531,6 +1637,110 @@
         }
       ],
       "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "VoceFoiSalvo",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "VoceFoiSalvo",
+            "Opacity",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+          },
+          "parameters": [
+            "VoceFoiSalvo",
+            "Animation"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"Save\"",
+            "\"Progresso\"",
+            "Progresso"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"DadosDoPlayer\"",
+            "\"VidaMax\"",
+            "VidaDeJogador"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"DadosDoPlayer\"",
+            "\"Dano\"",
+            "DamageMultiplication"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"DadosDoPlayer\"",
+            "\"Dados\"",
+            "QuantidadeDeDados"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"DadosDoPlayer\"",
+            "\"Xp\"",
+            "Xp"
+          ]
+        },
+        {
+          "type": {
+            "value": "EcrireFichierExp"
+          },
+          "parameters": [
+            "\"DadosDoPlayer\"",
+            "\"Level\"",
+            "LevelDoJogador"
+          ]
+        }
+      ]
     }
   ]
 }
