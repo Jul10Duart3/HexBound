@@ -166,7 +166,23 @@
                 "value": "Cache"
               },
               "parameters": [
+                "Camera"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
                 "Colisoes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Detequitor"
               ]
             },
             {

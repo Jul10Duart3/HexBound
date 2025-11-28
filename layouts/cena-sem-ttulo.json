@@ -12581,20 +12581,7 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "Health::Health::SetMaxHealthOp"
-              },
-              "parameters": [
-                "Voce",
-                "Health",
-                "=",
-                "VidaDeJogador",
-                ""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -12834,6 +12821,18 @@
             "AmigoCombate1.DanoBase",
             "",
             "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Health::Health::SetMaxHealthOp"
+          },
+          "parameters": [
+            "Voce",
+            "Health",
+            "=",
+            "VidaDeJogador",
             ""
           ]
         }
@@ -18202,7 +18201,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -18306,7 +18304,7 @@
                             "Personagens",
                             "TipoDeAtaque",
                             "=",
-                            "1"
+                            "Random(3)"
                           ]
                         }
                       ]
@@ -20067,6 +20065,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
