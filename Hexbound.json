@@ -1,7 +1,7 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 247,
+    "build": 248,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -15,7 +15,7 @@
     "packageName": "com.example.gamename",
     "pixelsRounding": false,
     "projectUuid": "a6e823c9-b92d-4074-9c99-bcf0c2188071",
-    "scaleMode": "linear",
+    "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "",
     "version": "0.2.0",
@@ -97,14 +97,6 @@
       {
         "file": "assets/New3DBox_Front.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Piskel\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":128,\\\"width\\\":128,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAA6BJREFUeF7tmuFt6mAAxGAz1mABhmIAMiZPQQoKtKJQOX2fJfOriHA5zlZIq+4Ph8N1t3qcTqf10x9/Ph6PPx7TAdstME3TR+Hn8/nh+P0iwLvgA/7R3n9+8LtCLCLcBHgFP+B/zhA94SshZgm+CBBwdP/hwtZC3AS4XC73e4DgD8drk0JrCRJgk4nHDk2Asfls3i4BNp947BN8K0Df/2NDo9stEtzvARKAnnjsvAQYm8/m7RJg84nHPsGDAF3+x4a1VbtZgts9QAJsNfHYuQkwNp/N2yXA5hOPfYKbANfr9eH/AcauXDt6gQSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5UlpcAMmB03QSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5UlpcAMmB03QSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5UlpcAMmB03QSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5Ulre/XC7X4/Eoq11dYoFpmnYJQCwpzUgAKTiqdgJQS0pz7gLM/bsPkFL8Ze0Z/vy43QMkwC9XFL8tAcTwiOoJQKwozvgiQF8DYpofVl/gP9wDJMCHK4oPTwAxPKJ6AhArijMeBDgcDtfT6XT/OP09QEz2jepr+Ofzebd/FuA5IyHeWHXgQ9bAn2veBZhfWF8FXn2ehBiY9m63ewV83XyGf/stYL4CrF94V4TlPQnxf4V4F/jScgG/PP8HOcxLr+ptn7UAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAs1JREFUeF7tmkFOIwEQxOBn8/T8jFVWYhWxCTUhJ2xz7ku5PDUJ8P7Wj5rAuzp94d8SQC5BAiSAnIA8fguQAHIC8vgtQALICcjjtwAJICcgj98CJICcgDx+C5AAcgLy+C1AAsgJyOO3AAkgJyCP3wIkgJyAPH4LkAByAvL4LUACyAnI47cACSAnII/fAiSAnIA8fguQAHIC8vgtQALICcjjtwAJICcgj98CJICcgDx+C5AAcgLy+C1AAsgJyOO3AAkgJyCP3wIkgJyAPH4LkAByAvL4LUACyAnI47cACSAnII/fAiSAnIA8vnEBPkbnKiaasMdx3C3+crk88kHBRhHyUfm3zT8QAc8HH/BM+UMENCN0uGfL/xThzhpgOWGD/bR8mwQJ8OAjoGUFkAK8+vRfnbB8KEyA8wtwvcTxwgW6ttQCnP/1ZgK0AOdt+S2XLcD5plqAFuC8Lb/lsgU431QLcIeV6Q9ESAFe/SZg+R0A8nvt5wP909eA6elHC/DsCnxTPJoT9hVw82r/948gx3H898YfxaPLx4e7J8H5z8d/L/EPCD7gCxIo2ChCfnnq+6fQGyBGAZ58C7DPE4Dd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEP/gCzHEyBKpFZOgAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[null],\"name\":\"New3DBox_Front\"}}",
-        "name": "New3DBox_Front",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/New3DBox_Front.png",
-        "kind": "image",
         "metadata": "",
         "name": "assets\\New3DBox_Front.png",
         "smoothed": true,
@@ -119,10 +111,10 @@
         "userAdded": false
       },
       {
-        "file": "assets/New3DBox_Front - Copia (2).png",
+        "file": "assets/New3DBox_Front.png",
         "kind": "image",
-        "metadata": "",
-        "name": "assets\\New3DBox_Front - Copia (2).png",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Piskel\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":0,\\\"height\\\":128,\\\"width\\\":128,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAA6BJREFUeF7tmuFt6mAAxGAz1mABhmIAMiZPQQoKtKJQOX2fJfOriHA5zlZIq+4Ph8N1t3qcTqf10x9/Ph6PPx7TAdstME3TR+Hn8/nh+P0iwLvgA/7R3n9+8LtCLCLcBHgFP+B/zhA94SshZgm+CBBwdP/hwtZC3AS4XC73e4DgD8drk0JrCRJgk4nHDk2Asfls3i4BNp947BN8K0Df/2NDo9stEtzvARKAnnjsvAQYm8/m7RJg84nHPsGDAF3+x4a1VbtZgts9QAJsNfHYuQkwNp/N2yXA5hOPfYKbANfr9eH/AcauXDt6gQSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5UlpcAMmB03QSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5UlpcAMmB03QSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5UlpcAMmB03QSgF5XlJYAMGF03AehFZXkJIANG100AelFZXgLIgNF1E4BeVJaXADJgdN0EoBeV5SWADBhdNwHoRWV5CSADRtdNAHpRWV4CyIDRdROAXlSWlwAyYHTdBKAXleUlgAwYXTcB6EVleQkgA0bXTQB6UVleAsiA0XUTgF5Ulre/XC7X4/Eoq11dYoFpmnYJQCwpzUgAKTiqdgJQS0pz7gLM/bsPkFL8Ze0Z/vy43QMkwC9XFL8tAcTwiOoJQKwozvgiQF8DYpofVl/gP9wDJMCHK4oPTwAxPKJ6AhArijMeBDgcDtfT6XT/OP09QEz2jepr+Ofzebd/FuA5IyHeWHXgQ9bAn2veBZhfWF8FXn2ehBiY9m63ewV83XyGf/stYL4CrF94V4TlPQnxf4V4F/jScgG/PP8HOcxLr+ptn7UAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAAAs1JREFUeF7tmkFOIwEQxOBn8/T8jFVWYhWxCTUhJ2xz7ku5PDUJ8P7Wj5rAuzp94d8SQC5BAiSAnIA8fguQAHIC8vgtQALICcjjtwAJICcgj98CJICcgDx+C5AAcgLy+C1AAsgJyOO3AAkgJyCP3wIkgJyAPH4LkAByAvL4LUACyAnI47cACSAnII/fAiSAnIA8fguQAHIC8vgtQALICcjjtwAJICcgj98CJICcgDx+C5AAcgLy+C1AAsgJyOO3AAkgJyCP3wIkgJyAPH4LkAByAvL4LUACyAnI47cACSAnII/fAiSAnIA8vnEBPkbnKiaasMdx3C3+crk88kHBRhHyUfm3zT8QAc8HH/BM+UMENCN0uGfL/xThzhpgOWGD/bR8mwQJ8OAjoGUFkAK8+vRfnbB8KEyA8wtwvcTxwgW6ttQCnP/1ZgK0AOdt+S2XLcD5plqAFuC8Lb/lsgU431QLcIeV6Q9ESAFe/SZg+R0A8nvt5wP909eA6elHC/DsCnxTPJoT9hVw82r/948gx3H898YfxaPLx4e7J8H5z8d/L/EPCD7gCxIo2ChCfnnq+6fQGyBGAZ58C7DPE4Dd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEPEoDd70yXABMR+yAB2P3OdAkwEbEP/gCzHEyBKpFZOgAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[null],\"name\":\"New3DBox_Front\"}}",
+        "name": "New3DBox_Front",
         "smoothed": true,
         "userAdded": false
       },
@@ -187,14 +179,6 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "../../../Downloads/notebook-paper-background-u93ahfi8co4epvd6.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "..\\..\\..\\Downloads\\notebook-paper-background-u93ahfi8co4epvd6.jpg",
         "smoothed": true,
         "userAdded": false
       },
@@ -356,14 +340,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/MD/atacado0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\MD\\atacado0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/MD/parado0001.png",
         "kind": "image",
         "metadata": "",
@@ -402,70 +378,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\NewSprite.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Pparado0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Pparado0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Pparado0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Pparado0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Player0002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Player0002.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Player0003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Player0003.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Player0004.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Player0004.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Player0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Player0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Player0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Player0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/UiMedo.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\UiMedo.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -664,22 +576,6 @@
         "userAdded": false
       },
       {
-        "file": "template.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "template.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "with-indices.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "with-indices.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/NewSprite3.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
@@ -792,70 +688,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Jogador/Andando pelo cenario/AndarFrente0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Andando pelo cenario/AndarFrente0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Andando pelo cenario/AndarLado0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Andando pelo cenario\\AndarLado0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Andando pelo cenario/AndarLado0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Andando pelo cenario\\AndarLado0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Andando pelo cenario/AndarTraz0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Jogador/Andando pelo cenario/AndarTraz0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Dadinho/DAndarFrente0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dadinho\\DAndarFrente0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Dadinho/DAndarFrente0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Dadinho\\DAndarFrente0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Dialog/KeoDialog0006.png",
         "kind": "image",
         "metadata": "",
@@ -887,14 +719,6 @@
         "preloadAsMusic": false,
         "preloadAsSound": false,
         "preloadInCache": false,
-        "userAdded": false
-      },
-      {
-        "file": "assets/cenario/arvores.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cenario\\arvores.png",
-        "smoothed": true,
         "userAdded": false
       },
       {
@@ -1206,126 +1030,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/RabiscoHumanoid/RHparadoc0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHparadoc0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHparadoc0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHparadoc0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHparadoc0002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHparadoc0002.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0002.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0003.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0003.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0004.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0004.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0005.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0005.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0006.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0006.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0007.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0007.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0008.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0008.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0009.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0009.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0010.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0010.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/RabiscoHumanoid/RHnervosoC0011.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\RabiscoHumanoid\\RHnervosoC0011.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "Scribble Shadows.mp3",
         "kind": "audio",
         "metadata": "",
@@ -1348,46 +1052,6 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\cenario\\FlorestaInfestada10001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/cavaleiro rabiscado/CRparadoc0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cavaleiro rabiscado\\CRparadoc0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/cavaleiro rabiscado/CRparadoc0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cavaleiro rabiscado\\CRparadoc0001.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/cavaleiro rabiscado/CRparadoc0002.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cavaleiro rabiscado\\CRparadoc0002.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/cavaleiro rabiscado/CRcacandoC0000.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cavaleiro rabiscado\\CRcacandoC0000.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/cavaleiro rabiscado/CRcacandoC0001.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\cavaleiro rabiscado\\CRcacandoC0001.png",
         "smoothed": true,
         "userAdded": false
       },
@@ -2276,94 +1940,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/Fantoche/Atacado1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado2.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado3.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado3.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado4.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado5.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado5.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado6.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado7.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado8.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado8.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado9.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado9.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado10.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado10.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
-        "file": "assets/Fantoche/Atacado11.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\Fantoche\\Atacado11.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/Fantoche/Ataque1.png",
         "kind": "image",
         "metadata": "",
@@ -2938,84 +2514,1041 @@
         "name": "ios-icon-20.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "fundo de papel gurme2.jpeg",
+        "kind": "image",
+        "metadata": "",
+        "name": "fundo de papel gurme2.jpeg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "modelo-de-papel-de-parede-de-papelao_1194-6785.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "modelo-de-papel-de-parede-de-papelao_1194-6785.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "tapete.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "tapete.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Parado",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Parado2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Parado3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Parado3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Parado.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoLado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoLado",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoLado2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoLado2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoLado3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoLado3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoLado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ParadoLado.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoTraz.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoTraz",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\AndarFrente.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\AndarFrente2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\AndarFrente3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\AndarFrente4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\AndarFrente5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\AndarFrente6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoTraz.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ParadoTraz.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarTraz.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarTraz",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarTraz2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarTraz2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarTraz3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarTraz3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarTraz4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarTraz4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarTraz5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarTraz5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarTraz6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarTraz6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Parado4.png\"}",
+        "name": "Parado4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/SentopeiaRajante.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\SentopeiaRajante.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Parado4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Parado5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Parado5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoLado4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoLado4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoLado5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoLado5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoLado4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/ParadoLado4.png\",\"extension\":\".png\"}",
+        "name": "assets\\ParadoLado4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarLado11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarLado11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoTraz2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoTraz2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoTraz3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ParadoTraz3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/AndarFrente7.png\",\"extension\":\".png\"}",
+        "name": "assets\\AndarFrente7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/AndarFrente8.png\",\"extension\":\".png\"}",
+        "name": "assets\\AndarFrente8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/AndarFrente9.png\",\"extension\":\".png\"}",
+        "name": "assets\\AndarFrente9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente10.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/AndarFrente10.png\",\"extension\":\".png\"}",
+        "name": "assets\\AndarFrente10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente11.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/AndarFrente11.png\",\"extension\":\".png\"}",
+        "name": "assets\\AndarFrente11.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente12.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/AndarFrente12.png\",\"extension\":\".png\"}",
+        "name": "assets\\AndarFrente12.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ParadoTraz2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ParadoTraz2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/AndarFrente18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "AndarFrente18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ArvoresEstilo1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ArvoresEstilo1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Casa1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Casa1",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewTiledSprite.png\"}",
+        "name": "NewTiledSprite",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "NewTiledSprite2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Dentro do Castelo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Dentro do Castelo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewTiledSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewTiledSprite2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Folinha",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Folinha2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Folinha3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Folinha4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Folinha5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FIandar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FIandar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FIandar2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FIandar2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FIandar3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FIandar3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/FIandar4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "FIandar4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/BlocoPreto.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "BlocoPreto",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ArvoresEstilo2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"ArvoresEstilo1\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":96,\\\"width\\\":96,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAACE1JREFUeF7tXDuOHUUUfUZGxiIiIAIssQoCC7bgFQABZGyGhAwCICH1FowI2IaBCCQkJDCWEEZ34EhnLvdWnfp0dz2pXzIz3fU95/6r3ty5nJ9DEbhz6Ozn5JeTgIOF4CTgJKCOwLsfffKi3ipu8e0Xny0tZMsujkF/8ObdKv5vvXH38sNPf91q9/TH23+vSMaSBAB8BXhD3IC2tkaCfYwI/h2sgJCViDiUAMW0lEhgCX/4zitVLQE5KxFxCAGqhAMoTwKe10BnTfDsfPf9nzePjtaG3Qkw8FXT4k0H/o6AL4Ht37GvMDKPJGE3AlSpj+yIgVST9sz+QNIz0tkcsUnci5RdCOiRega0l4Aa+KxhBritE0Sj79ZmalMCRqS+lYDIBBmIirnzvgYhrf3c2ldsToACQC18GdEAdX6EsrYWhLC8rq2I2IyAmdJvQPT4gF4NyDQCOcdM/7AJAbD5LFUlKR8NN0tjKyRE80dah+hpZuQ0nQCAD/vpTUCUrXqQlDi/FHZmMX/N1PFaM7Nn885M5DYlwDbM4HrbChC5Ta+9r4GrvOfIp2TyQMIMUzSVAA43EUkwoADcS6+6cQXErdrw2mf6gmkEsOnx0UOPA+0Fksnsdd61uZfTAI54ohAORbDsXW3D6vso8drCpLEf8GtrNUtTNIClv8U5qsCq7bKIp4WEzBz6EncWObVmzsMERNI/iwSEfarmjBLAGpRFYhyKRklea4Q0hQAchrQAr7RV2nh/E5WuVR8UEZjlA6UcpyVP6CbAH6Zgk62gqeZFadeTT2DcUsJWKk0Y4Z6MFi1oJsCbnCMBjxIu1oAIuGy9CgGct5jAoU+kDaoWNBGwirNVQVR9h08YPbE8joHuS9b2d3QhQImIZAKimj6XbRUTMdqGN5mBW8q8azUje59VT1Fa8f7EJ2itSZpEQFbZbJEwpT5Tc5aquUM0UxuvZsL4fSmUHcmSZQJKIRcWWtqwz1Cz8VpBq0l1y3h+jTy2Hyciuada2k2AT0RKFUylJAzVbQFs1KT19i8lay0RkM0/RIASc6vgA4yWrLUXwJF+UeWWTZAa/WANmxLQCr6qBaovGAE66xvtCb7Q3imRD499dQQokZAC/EjVNMuYW8EfMkHRJr35KNVmOOSD3bRnig+YoQFZPK+Q5/OGVrMzRQNGCODrHiroKjC+3QyyorlZg3okf9gH+EVFUVBmL7OTsV6Qj+i3KwG2wdrttih6KTmsI0CbMWcU//c43yYNAAFst3kzLTkAZ8+ReVBNRq1dlFQp/qVEUimq6/UDUhSERZXu82eb40MOG2eP+pFa12/ViKjcjULcLgREC+ZLWCUSkLSN1I9UwErR14gWZMTiTKDHGTdpgAeA/UItg93CJGSEbEVAFH5yaXppAlTprdlg/141fdavJiTqGr0jHrmmMl0DWg/SWzfd+nUlzpwzAka1cykCVEDVdnwMWPvCnj+XBjCw0VlJWSkqlta7BAG8wNIhtrXrcYRKYS/LRbC22QSMVEGb84BSBJSBH0lvKWeo2X/lyxYgQc0Teg+GRk7BeJ/TfAAG9dfPfR7Q6wxZA7LbDn7sKGvFOmtJVe12NOc0vTmAjTGdACystNGeaMQT4J09Hwdibki3WiZBP3V9PUeQXss3IYBJ8Nc1ejUAC8+A5+vw1rbmWOE4fduaiZxlejbzAUp0o0qYMhYTEpk7EO6df3adhNuxH/E+ZSTymeYDbKBaldSDyBJWstEl8DMHW7LrtRJIlFwp//yjJ/udTkCk8hmAfPrFNhrte0JU9jfRWlTws77ejLbefCgJ05APwMDKV1Ij4CPt6CXAJPjD359fvnz13s2wSvEPUg8pLu2D1z8q9VM1gAcb/fczrQ6a8wwDHx+QAHvuTRaXHt7+5bfLV4+/viWI0T5mgr4ZAZmqffDo/Rfv3b93I52lu5e15MkfZcIRMvhYw5Nnzy+YM1qX9bE29vEEKM5/VpspJqi2GCbA29nI0WE8Dzg/h7Z48F97/aXLrz//fQPuowf3b7rY3/wB8EeDb/PvRoBNZoB8+sfLt7QgOyGLwPeVTQYfwPufEfBHSrwX1l0IsEmhBfY7myIQYM+ZjFKcbm0Bfga8PccHGmCSvxL4u2kACLCfZpdBAktD7R8qMejcjwng54+fPrvRuJXB35WAiAQGjCMXfh45WLyHlBvILPH23gjwn9Wkf3cCPAkeNC/B0BYGPAL7f0j/R8CKgB/mA3hi+ANPAEcr9s6kGCSUpP0kIEKg8MwIsNdsozNtACmZrbdxMhN0aoBAgm8CUnwUE0U7HOVwe9OcawD/EB9QUxbTDiRQGcBe4v3fJwE1lAXNiDQhI8QPdxIwQABHSvATfrgsEsLzk4BBAtCdzRGDfhIwCeDaMCcBNYQ2fh85ZMUcnSZoEjEtBLBZOgk4CZAR2K0cLa+IGioaEIWmpwb0oB30yZxwNPxpgiaBzsO0EMD9Tg2YREZEgFKOPgk4CZARuBonrEj+WYqQedcatvoAJsBmuIaS9NVogEbZv61wL+gkoAW1ShgaxfvZ8CcBg8Cju3I4k+UEK94BitZ6dSZIdcYnAYNawAf3PFREQHREeRIwQABfYyzdHcr8wukDBsC3rgoBtROyayFhOR+ggI9Q01/W8qSscP+/JovLE8AXsyJfEF3c4ht2q/uCpQhg6Tew/W24yOww2L7P6jejbb3LEODBZ2mP7oV64L2qcx97t6omHE4Awk0Dyd+GrtlPvOevHPEY10DCoQQw+CrYTJT/rhfGKxH58TefH7pnv8+lFqOQ4EmLCm4RsSBltcjoKglorXJmmtY6jiIgrW2ujoDWDUbtQcgKBPwDmMqzynKvPSoAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAUdJREFUeF7t00ENAAAMg8DVv+nJuA8zQALrrqMGRunBrwD4CQpQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwE4wAPsJQBhIWjfGQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 3\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAAUdJREFUeF7t00ENAAAMg8DVv+nJuA8zQALrrqMGRunBrwD4CQpQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwEFwAYwvgUUABvA+BZQAGwA41tAAbABjG8BBcAGML4FFAAbwPgWUABsAONbQAGwAYxvAQXABjC+BRQAG8D4FlAAbADjW0ABsAGMbwE4wAPsJQBhIWjfGQAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[null],\"name\":\"ArvoresEstilo1\"}}",
+        "name": "ArvoresEstilo2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ArvoresEstilo1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\ArvoresEstilo1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STparado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/STparado.png\"}",
+        "name": "STparado",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STparado2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/STparado2.png\"}",
+        "name": "STparado2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STparado3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/STparado3.png\"}",
+        "name": "STparado3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STparado.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\STparado.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STparado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\STparado2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STDelado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "STDelado",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STafirmando.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "STafirmando",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STafirmando2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "STafirmando2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/STparado3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\STparado3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDparado.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDparado",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDparado2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDparado2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDparado2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MDparado2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDsupresa.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDsupresa",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDsupresa2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDsupresa2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDsupresa3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDsupresa3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDAndar.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDAndar",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDAndar2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDAndar2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDAndar3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDAndar3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDAndar4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDAndar4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDAndar5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDAndar5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDAndar6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDAndar6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDsupresa3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\MDsupresa3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/MDparado3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "MDparado3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Casa1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Casa1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Casa2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Casa2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Parado/Fparado0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Parado\\Fparado0001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Atacar/Fatacar0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Atacar\\Fatacar0001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Atacar/Fatacar0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Atacar\\Fatacar0002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Ataca/Fataca0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Ataca\\Fataca0001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Ataca/Fataca0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Ataca\\Fataca0002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Ataca/Fataca0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Ataca\\Fataca0003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Ataca/Fataca0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Ataca\\Fataca0004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Ataca/Fataca0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Ataca\\Fataca0005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Folinha/Ataca/Fataca0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Folinha\\Ataca\\Fataca0006.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "ArvoresSomosNoses",
-      "preScale": 0.5,
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "ShakeObject_PositionAngle",
-          "type": "ShakeObject::ShakeObject_PositionAngle"
-        }
-      ],
-      "animations": [
-        {
-          "name": "ArvoresSomosNoses1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\cenario\\arvores.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 356,
-                    "y": 568.5
-                  },
-                  "centerPoint": {
-                    "automatic": false,
-                    "name": "centre",
-                    "x": 356,
-                    "y": 568.5
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 288,
-                        "y": 604.5
-                      },
-                      {
-                        "x": 419,
-                        "y": 608
-                      },
-                      {
-                        "x": 457,
-                        "y": 663
-                      },
-                      {
-                        "x": 349.5,
-                        "y": 698
-                      },
-                      {
-                        "x": 248.5,
-                        "y": 664.5
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Colisoes",
+      "preScale": 0.2,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -3089,6 +3622,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Detequitor",
+      "preScale": 0.2,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -3225,154 +3759,9 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "height": 32,
-      "name": "Caminho",
-      "texture": "caminho.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [
-        {
-          "effectType": "ColorReplace",
-          "name": "Effect",
-          "doubleParameters": {
-            "epsilon": 1
-          },
-          "stringParameters": {
-            "newColor": "192;128;67",
-            "originalColor": "255;255;255"
-          },
-          "booleanParameters": {}
-        }
-      ],
-      "behaviors": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": false,
-      "assetStoreId": "",
-      "name": "ObjetosDeCenario",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Casa1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Casinha1.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 360.5,
-                    "y": 360
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 114,
-                        "y": 447
-                      },
-                      {
-                        "x": 627.5,
-                        "y": 439
-                      },
-                      {
-                        "x": 633.5,
-                        "y": 694.5
-                      },
-                      {
-                        "x": 116,
-                        "y": 690
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Fundo",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Fundo",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "2078291-fundo-de-papel-amassado-gratis-foto.jpg",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 2940,
-                        "y": 0
-                      },
-                      {
-                        "x": 2940,
-                        "y": 1960
-                      },
-                      {
-                        "x": 0,
-                        "y": 1960
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Dadinho",
-      "preScale": 0.5,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -3381,8 +3770,9 @@
         {
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 9000,
+          "acceleration": 80000,
           "allowDiagonals": true,
+          "maxSpeed": 250,
           "angleOffset": 0,
           "angularMaxSpeed": 180,
           "cellHeight": 20,
@@ -3390,139 +3780,8 @@
           "extraBorder": 0,
           "gridOffsetX": 0,
           "gridOffsetY": 0,
-          "maxSpeed": 700,
           "rotateObject": false,
           "smoothingMaxCellGap": 1
-        }
-      ],
-      "animations": [
-        {
-          "name": "AndarFrente",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dadinho\\DAndarFrente0000.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 359,
-                    "y": 358.5
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 217,
-                        "y": 297
-                      },
-                      {
-                        "x": 476,
-                        "y": 297
-                      },
-                      {
-                        "x": 476,
-                        "y": 550
-                      },
-                      {
-                        "x": 217,
-                        "y": 550
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Dadinho\\DAndarFrente0001.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 359,
-                    "y": 358.5
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 217,
-                        "y": 297
-                      },
-                      {
-                        "x": 476,
-                        "y": 297
-                      },
-                      {
-                        "x": 476,
-                        "y": 550
-                      },
-                      {
-                        "x": 217,
-                        "y": 550
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Keo",
-      "preScale": 0.5,
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "Pathfinding",
-          "type": "PathfindingBehavior::PathfindingBehavior",
-          "acceleration": 10000,
-          "allowDiagonals": true,
-          "angleOffset": 0,
-          "angularMaxSpeed": 180,
-          "cellHeight": 20,
-          "cellWidth": 20,
-          "extraBorder": 0,
-          "gridOffsetX": 0,
-          "gridOffsetY": 0,
-          "maxSpeed": 700,
-          "rotateObject": false,
-          "smoothingMaxCellGap": 1
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-          "maxSpeed": 700,
-          "acceleration": 10000,
-          "deceleration": 10000,
-          "angleOffset": 0,
-          "ignoreDefaultControls": true,
-          "allowDiagonals": true,
-          "angularMaxSpeed": 180,
-          "customIsometryAngle": 30,
-          "movementAngleOffset": 0,
-          "rotateObject": false,
-          "useLegacyTurnBack": false,
-          "viewpoint": "TopDown"
         }
       ],
       "animations": [
@@ -3531,41 +3790,248 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.16,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0000.png",
+                  "image": "Parado4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 358.5
+                    "x": 16,
+                    "y": 28
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 28
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 251,
-                        "y": 290
+                        "x": 5,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 290
+                        "x": 27,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 548
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 251,
-                        "y": 548
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Parado5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ParadoLado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoLado4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoLado5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ParadoTraz",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoTraz2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoTraz3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
@@ -3580,76 +4046,221 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.16,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0000.png",
+                  "image": "AndarFrente13",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 358.5
+                    "x": 16,
+                    "y": 28
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 28
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 251,
-                        "y": 290
+                        "x": 5,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 290
+                        "x": 27,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 548
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 251,
-                        "y": 548
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarFrente0001.png",
+                  "image": "AndarFrente14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 358.5
+                    "x": 16,
+                    "y": 28
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 28
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 251,
-                        "y": 290
+                        "x": 5,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 290
+                        "x": 27,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 548
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 251,
-                        "y": 548
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente16",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente18",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
@@ -3664,76 +4275,221 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.16,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarLado0001.png",
+                  "image": "AndarLado7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 358.5
+                    "x": 16,
+                    "y": 28
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 28
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 251,
-                        "y": 290
+                        "x": 5,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 290
+                        "x": 27,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 548
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 251,
-                        "y": 548
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarLado0000.png",
+                  "image": "AndarLado8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 358.5
+                    "x": 16,
+                    "y": 28
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 28
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 251,
-                        "y": 290
+                        "x": 5,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 290
+                        "x": 27,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 548
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 251,
-                        "y": 548
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\ParadoLado4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
@@ -3748,76 +4504,1374 @@
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.16,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0000.png",
+                  "image": "assets\\AndarFrente7.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 358.5
+                    "x": 16,
+                    "y": 28
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 28
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 251,
-                        "y": 290
+                        "x": 5,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 290
+                        "x": 27,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 548
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 251,
-                        "y": 548
+                        "x": 5,
+                        "y": 28
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\Jogador\\Andando pelo cenario\\AndarTraz0001.png",
+                  "image": "assets\\AndarFrente8.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 358.5
+                    "x": 16,
+                    "y": 28
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 16,
+                    "y": 28
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 251,
-                        "y": 290
+                        "x": 5,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 290
+                        "x": 27,
+                        "y": 5
                       },
                       {
-                        "x": 441,
-                        "y": 548
+                        "x": 27,
+                        "y": 28
                       },
                       {
-                        "x": 251,
-                        "y": 548
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\AndarFrente9.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\AndarFrente10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\AndarFrente11.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\AndarFrente12.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 16,
+                    "y": 28
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 5
+                      },
+                      {
+                        "x": 27,
+                        "y": 28
+                      },
+                      {
+                        "x": 5,
+                        "y": 28
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Keo",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "name": "Power",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
+          "acceleration": 80000,
+          "allowDiagonals": true,
+          "maxSpeed": 250,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "cellHeight": 20,
+          "cellWidth": 20,
+          "extraBorder": 0,
+          "gridOffsetX": 0,
+          "gridOffsetY": 0,
+          "rotateObject": false,
+          "smoothingMaxCellGap": 1
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera",
+          "LeftwardSpeed": 0.99,
+          "RightwardSpeed": 0.99,
+          "UpwardSpeed": 0.99,
+          "DownwardSpeed": 0.99,
+          "FollowOnX": true,
+          "FollowOnY": true,
+          "FollowFreeAreaLeft": 0,
+          "FollowFreeAreaRight": 0,
+          "FollowFreeAreaTop": 0,
+          "FollowFreeAreaBottom": 0,
+          "CameraOffsetX": 0,
+          "CameraOffsetY": 0,
+          "CameraDelay": 0,
+          "ForecastTime": 0,
+          "ForecastHistoryDuration": 0,
+          "LogLeftwardSpeed": 2.0247e-320,
+          "LogRightwardSpeed": 2.0247e-320,
+          "LogDownwardSpeed": 2.0247e-320,
+          "LogUpwardSpeed": 2.0247e-320,
+          "DelayedCenterX": 2.0247e-320,
+          "DelayedCenterY": 2.0247e-320,
+          "ForecastHistoryMeanX": 2.0247e-320,
+          "ForecastHistoryMeanY": 2.0247e-320,
+          "ForecastHistoryVarianceX": 2.0247e-320,
+          "ForecastHistoryCovariance": 2.0247e-320,
+          "ForecastHistoryLinearA": 2.0247e-320,
+          "ForecastHistoryLinearB": 2.0247e-320,
+          "ForecastedX": 2.0247e-320,
+          "ForecastedY": 2.0247e-320,
+          "ProjectedNewestX": 2.0247e-320,
+          "ProjectedNewestY": 2.0247e-320,
+          "ProjectedOldestX": 2.0247e-320,
+          "ProjectedOldestY": 2.0247e-320,
+          "ForecastHistoryVarianceY": 2.0247e-320,
+          "Index": 2.0247e-320,
+          "CameraDelayCatchUpSpeed": 0,
+          "CameraExtraDelay": 2.0247e-320,
+          "WaitingSpeedXMax": 2.0247e-320,
+          "WaitingSpeedYMax": 2.0247e-320,
+          "WaitingEnd": 2.0247e-320,
+          "CameraDelayCatchUpDuration": 2.0247e-320,
+          "LeftwardSpeedMax": 9000,
+          "RightwardSpeedMax": 9000,
+          "UpwardSpeedMax": 9000,
+          "DownwardSpeedMax": 9000,
+          "OldX": 9000.000000007454,
+          "OldY": 9000.000000007454,
+          "IsCalledManually": false
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 800000,
+          "allowDiagonals": true,
+          "angularMaxSpeed": 180,
+          "deceleration": 80000,
+          "maxSpeed": 250,
+          "angleOffset": 0,
+          "ignoreDefaultControls": true,
+          "customIsometryAngle": 30,
+          "movementAngleOffset": 0,
+          "rotateObject": false,
+          "useLegacyTurnBack": false,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "Parado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Parado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Parado2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Parado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Parado3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ParadoLado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoLado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoLado2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoLado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoLado3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ParadoTraz",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ParadoTraz",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AndarFrente",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarFrente6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AndarLado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarLado6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AndarTraz",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"AndarTraz\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":64,\\\"width\\\":64,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":6,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAABACAYAAAATWKC/AAAAAXNSR0IArs4c6QAABMVJREFUeF7t3UFuE0EQhWFnySW4Uk4AK7ZIHAWJLSs4Qa7EJViChqjlwXISl9VjT1V9s8EJbkP99fq96rEhDwcXAggggEBLAg8tq1Y0AggggMBBABABAggg0JSAAGjaeGUjgAACAoAGEEAAgaYEBEDTxisbAQQQEAA0gAACCDQlIACaNl7ZCCCAgACgAQQQQKApAQHQtPHKRgABBAQADSCAAAJNCQiApo1XNgIIICAAaAABBBBoSkAANG28shFAAAEBQAMIIIBAUwICoGnjlY0AAggIABpAAAEEmhK4awB8fPzwZ3D/8fTzrn+Xpv1X9h0I0P0doPsjzxK4m+kum+Dx/bvD06/fh67mzwj67Uq6Pxzofj+6v3kAjOYv5j+uJQTWV4dA6G4E3UyA7p93eHfdD5/bi/5vFgDnNsBLOTgCoWIQMIJeJkD3R+NfHnUf/PYWgjcNgHXzLzkErU8G2cOAERyP/p1MYEy8l+j93ImY7iPk9v3cPQ5/mwdAxPgqnwg6G0FEA1VOf5Ga6f5/ApUGvzHxn55+9tLzTQPgGtM7BZP9TWJGcLzlE5nPMpsA3Z8/7UX6vzy30jCw17sfmwXAjE2wPhJnPArPYJA5ADuG34ye0/2z+Wfc8+uQy6D/TQJgRuFrkBnF0N0IZtSfre90f91p77XbIVlDIIv+NwmA9UedokefCmLobgQzxJ95Cu5af3fdZ/S9zQJg5iYY9wOzTQMzGWSZhrubwMye032+W0HZ9J8iADK+GdTdCGbWnyX81p/xjr7hee75dJ8vALKdAtIEQPfpfxFWFgYzzT/bFDyz9kzBt5XxZdL9Fgy21r8AmDGqnXmNzkYwu/ZMJjC79iyhv4X5ZQzAbKdAASAAphPobIKda9/C/LIFYDYGmwXATBAZJ4HORtC5drp//l9+Z1wZ9/3M/m99+2d5fQEwQ6kvvMYsI8y2EWbVfYsNsEX7Z9Wfre+zbwN1r/8W+t9FACyNfmlqyCqCmZNARgadTfDS2un+9fjNqPtsIbhpAJya4BD8+Hjb+IEw375+Onz+8v1fCJxuig4iqGgEl5rgWxN41v6v66f7812uqHsBcNLr8Q8jlm8Po19+Xa7F9Mfj9dfL95erwk8M62oElwZAVROg++N7Ad0CMHL6v7f+Nz8BDBjLu/ljU6xN/3Q2GOY/np/xUwDrmjobQdfwW0+BdN9z8Mty9+MmAfDWMb/67y9G2NEIOodfdU1fUl9X3a8HgPF4r3c/BMAlSvacqwl0N4GrwVlYgsDe9S8ASshMEQgggECcgACIM7MCAQQQKEFAAJRooyIQQACBOAEBEGdmBQIIIFCCgAAo0UZFIIAAAnECAiDOzAoEEECgBAEBUKKNikAAAQTiBARAnJkVCCCAQAkCAqBEGxWBAAIIxAkIgDgzKxBAAIESBARAiTYqAgEEEIgTEABxZlYggAACJQgIgBJtVAQCCCAQJyAA4sysQAABBEoQEAAl2qgIBBBAIE5AAMSZWYEAAgiUICAASrRREQgggECcgACIM7MCAQQQKEFAAJRooyIQQACBOAEBEGdmBQIIIFCCgAAo0UZFIIAAAnECAiDOzAoEEECgBAEBUKKNikAAAQTiBARAnJkVCCCAQAkCfwFii0R9R+CqTAAAAABJRU5ErkJggg==\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":6,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0],[1],[2],[3],[4],[5]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAYAAAABACAYAAAATWKC/AAAAAXNSR0IArs4c6QAABJ1JREFUeF7t2zFuFEEUhOH1BQi5DBcgIyKEiBTJR0EiJYKQiIwLcBlCLgBqo5aaZmZ3Jdvd465vE3tnbc/W/+q96p5Z35w8EEAAAQQiCdxEqiYaAQQQQOAkAJgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAgAHgAAQQQCCUgAEILTzYCCCAwPADevnrz+xL2z9++DH9fl96T1xG4DwG+vw89v/tYBIYO2tIEty+fnT58/3UqX/tHPV6+rhoCyYMgVTvf/+30S/VftefrnLukv/zcaAZTAqAI3QqBcqw+RoN4rIRt/27yIEjXXn3QL3zaPlh14ZNc+3b4H3HxOyUA6qDfaoZVA6BtgqJxbwdUX1tpGPQrn3PaV6x/q3/P83U4rLbwSfb93sr/SP4fGgB1G/jxw7s7Nu9vP/238C6vleOrNsLe7qceL7pL06zCoWpp632uAVpvrOKBtp694VfU2w6+1sc1DPYu/bY9MGJHPuIcR/f/lACo4J+/eP1PDX7++Hr3fJXG7w22ZYYtE640FK7VXDmspL2//Fee73l+Rd9fW/tVa37Ngnf2gmB4AFQopRHqwK+NUZ6vOvz77WA/CMrrVX+9ZLAKi1ZP+T5Jex8Cab6/tvYrBmDf83V3fyT/Dw+AOgDaYd8OhZQQaAdBNUSi9pTw3/P4Vj+MuDQx4xw9g5TaH3kRMCUAWiA1FftjMww64pztDcG6wk8ZAltDMEl7su/7nX/r/cpllR3vuTnS+3324ndKAPTX/PqbZCsbYUvrViiMCKPR52jNX7f8aQHQ3xRd+fr31j2wdthX36/ygYdr+mkrAGbuhIYHQHtjpH7apx2AK18L3LoptNqnfi41Qf8Jp7QA6Adg2vBLDsCtXVDfD5f656FfnxIAFUS70l/txuelbWBqI2wFQMolgC2Pl2Mr73jbG6Hndv4JDOrcO9IiYFoAPHSSPbW/1zZ+0g6oD//ZK6Cn5pun+n73PJ4SgH0Qtv/rNJOBADhIRyXtgFrkSfd/DmK1aW8j1ePt8C/fH+mynwCY1g5O3G+JV7//o+LZBI640xcA2Z6kHgEEggkIgODik44AAtkEBEB2/alHAIFgAgIguPikI4BANgEBkF1/6hFAIJiAAAguPukIIJBNQABk1596BBAIJiAAgotPOgIIZBMQANn1px4BBIIJCIDg4pOOAALZBARAdv2pRwCBYAJ/AMNzLG6HUrMeAAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"0\\\"]}}\",\"resourceNames\":[\"AndarTraz\",\"AndarTraz2\",\"AndarTraz3\",\"AndarTraz4\",\"AndarTraz5\",\"AndarTraz6\"],\"name\":\"AndarTraz\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarTraz4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarTraz5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarTraz6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarTraz",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarTraz2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "AndarTraz3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 31.5,
+                    "y": 52
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 46
+                      },
+                      {
+                        "x": 35,
+                        "y": 46
+                      },
+                      {
+                        "x": 36,
+                        "y": 52
+                      },
+                      {
+                        "x": 27,
+                        "y": 52
                       }
                     ]
                   ]
@@ -4248,7 +6302,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "MRsDandun",
-      "preScale": 0.5,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4262,7 +6315,455 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BlocoPreto",
+          "name": "MDparado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDparado2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MDAndar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDAndar",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDAndar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDAndar3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDAndar4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDAndar5",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDAndar6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MDsupresa",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDsupresa",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDsupresa2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDsupresa3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MDDesconfiado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MDparado3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 48,
+                    "y": 83
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 15,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 22
+                      },
+                      {
+                        "x": 81,
+                        "y": 86
+                      },
+                      {
+                        "x": 15,
+                        "y": 86
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MDparado3",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -4271,36 +6772,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\BP\\BP parado.png",
+                  "image": "assets\\MDsupresa3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 359,
-                    "y": 360
+                    "x": 48,
+                    "y": 83
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 48,
+                    "y": 83
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 147,
-                        "y": 156
+                        "x": 15,
+                        "y": 22
                       },
                       {
-                        "x": 583,
-                        "y": 156
+                        "x": 81,
+                        "y": 22
                       },
                       {
-                        "x": 583,
-                        "y": 567
+                        "x": 81,
+                        "y": 86
                       },
                       {
-                        "x": 147,
-                        "y": 567
+                        "x": 15,
+                        "y": 86
                       }
                     ]
                   ]
@@ -4382,7 +6883,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "FolinhaInimigo",
-      "preScale": 0.25,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4396,16 +6896,16 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BlocoPreto",
+          "name": "FIparado",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 0.166667,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\BP\\BP parado.png",
+                  "image": "assets\\Folinha3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4421,20 +6921,501 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 147,
-                        "y": 156
+                        "x": 10,
+                        "y": 9
                       },
                       {
-                        "x": 583,
-                        "y": 156
+                        "x": 21,
+                        "y": 9
                       },
                       {
-                        "x": 583,
-                        "y": 567
+                        "x": 21,
+                        "y": 24
                       },
                       {
-                        "x": 147,
-                        "y": 567
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "FIandar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.1111111111111111,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FIandar",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FIandar2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FIandar3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "FIandar4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 9
+                      },
+                      {
+                        "x": 21,
+                        "y": 24
+                      },
+                      {
+                        "x": 10,
+                        "y": 24
                       }
                     ]
                   ]
@@ -4449,7 +7430,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BlocoPreto",
-      "preScale": 0.25,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4468,11 +7448,12 @@
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\BP\\BP parado.png",
+                  "image": "BlocoPreto",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4488,20 +7469,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 147,
-                        "y": 156
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 583,
-                        "y": 156
+                        "x": 31,
+                        "y": 1
                       },
                       {
-                        "x": 583,
-                        "y": 567
+                        "x": 31,
+                        "y": 31
                       },
                       {
-                        "x": 147,
-                        "y": 567
+                        "x": 1,
+                        "y": 31
                       }
                     ]
                   ]
@@ -4516,7 +7497,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Sr_tutorial",
-      "preScale": 0.4,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4530,16 +7510,17 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "BlocoPreto",
+          "name": "STparado",
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\BP\\BP parado.png",
+                  "image": "STparado2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4555,20 +7536,262 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 147,
-                        "y": 156
+                        "x": 25,
+                        "y": 16
                       },
                       {
-                        "x": 583,
-                        "y": 156
+                        "x": 71,
+                        "y": 16
                       },
                       {
-                        "x": 583,
-                        "y": 567
+                        "x": 71,
+                        "y": 89
                       },
                       {
-                        "x": 147,
-                        "y": 567
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "STparado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "STparado2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "STparado3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STDelado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "STDelado",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "STafirmando",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 1,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "STafirmando",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "STafirmando2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
                       }
                     ]
                   ]
@@ -4583,7 +7806,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "SRtutorialNaoInimigo",
-      "preScale": 0.4,
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -4601,12 +7823,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
+              "looping": true,
+              "timeBetweenFrames": 1,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets\\BP\\BP parado.png",
+                  "image": "assets\\STparado2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4622,20 +7844,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 147,
-                        "y": 156
+                        "x": 25,
+                        "y": 16
                       },
                       {
-                        "x": 583,
-                        "y": 156
+                        "x": 71,
+                        "y": 16
                       },
                       {
-                        "x": 583,
-                        "y": 567
+                        "x": 71,
+                        "y": 89
                       },
                       {
-                        "x": 147,
-                        "y": 567
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\STparado.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\STparado2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\STparado3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 25,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 16
+                      },
+                      {
+                        "x": 71,
+                        "y": 89
+                      },
+                      {
+                        "x": 25,
+                        "y": 89
                       }
                     ]
                   ]
@@ -6318,9 +9648,9 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "Fundo2",
+      "name": "Casas",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -6328,7 +9658,117 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "Fundo2",
+          "name": "Casa1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Casa1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 122.5,
+                    "y": 242.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 123.5,
+                    "y": 243
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 104.5,
+                        "y": 218.5
+                      },
+                      {
+                        "x": 139.5,
+                        "y": 219.5
+                      },
+                      {
+                        "x": 158,
+                        "y": 248.5
+                      },
+                      {
+                        "x": 82,
+                        "y": 248
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Casa2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Casa2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 131.5,
+                    "y": 214.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 132,
+                    "y": 214.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 104.5,
+                        "y": 194.5
+                      },
+                      {
+                        "x": 227.5,
+                        "y": 210.5
+                      },
+                      {
+                        "x": 154.5,
+                        "y": 245.5
+                      },
+                      {
+                        "x": 16.5,
+                        "y": 234
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "Arvores",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -6337,12 +9777,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "fundo de papel gurme.jpeg",
+                  "image": "assets\\ArvoresEstilo1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 47,
+                    "y": 87.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -6353,20 +9793,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 39.5,
+                        "y": 82.5
                       },
                       {
-                        "x": 3000,
-                        "y": 0
+                        "x": 53,
+                        "y": 83
                       },
                       {
-                        "x": 3000,
-                        "y": 2000
+                        "x": 59.5,
+                        "y": 93
                       },
                       {
-                        "x": 0,
-                        "y": 2000
+                        "x": 32,
+                        "y": 92.5
                       }
                     ]
                   ]
@@ -6376,6 +9816,30 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Grama",
+      "texture": "NewTiledSprite2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Displacement",
+          "name": "Effect",
+          "doubleParameters": {
+            "scaleX": 20,
+            "scaleY": 20
+          },
+          "stringParameters": {
+            "displacementMapTexture": "fundo de papel gurme.jpeg"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -6385,19 +9849,13 @@
         "folderName": "Cenario",
         "children": [
           {
-            "objectName": "ArvoresSomosNoses"
+            "objectName": "Arvores"
           },
           {
-            "objectName": "Fundo"
+            "objectName": "Casas"
           },
           {
-            "objectName": "Fundo2"
-          },
-          {
-            "objectName": "Caminho"
-          },
-          {
-            "objectName": "ObjetosDeCenario"
+            "objectName": "Grama"
           }
         ]
       },
@@ -6466,10 +9924,10 @@
         "objectName": "Keo"
       },
       {
-        "objectName": "Dialogo"
+        "objectName": "Dadinho"
       },
       {
-        "objectName": "Dadinho"
+        "objectName": "Dialogo"
       },
       {
         "objectName": "VoceFoiSalvo"
@@ -6477,6 +9935,28 @@
     ]
   },
   "objectsGroups": [
+    {
+      "name": "Amigos",
+      "objects": [
+        {
+          "name": "Dadinho"
+        }
+      ]
+    },
+    {
+      "name": "Colisoes2",
+      "objects": [
+        {
+          "name": "Colisoes"
+        },
+        {
+          "name": "Casas"
+        },
+        {
+          "name": "Arvores"
+        }
+      ]
+    },
     {
       "name": "Inimgios",
       "objects": [
@@ -6521,7 +10001,7 @@
     {
       "name": "Tipo",
       "type": "string",
-      "value": "Tela Azul"
+      "value": "Sentopeia Rabiscada"
     },
     {
       "name": "EmBatalha",
@@ -6607,6 +10087,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/fim"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/runtime"
     }
   ],
   "externalEvents": [
@@ -6647,6 +10131,14 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/navmeshpathfinding"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/smoothcamera"
     }
   ],
   "externalLayouts": []

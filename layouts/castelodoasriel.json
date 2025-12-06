@@ -1,13 +1,13 @@
 {
-  "b": 209,
+  "b": 46,
   "disableInputWhenNotFocused": true,
   "mangledName": "CasteloDoAsriel",
   "name": "CasteloDoAsriel",
-  "r": 209,
+  "r": 107,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
   "title": "",
-  "v": 209,
+  "v": 75,
   "uiSettings": {
     "grid": true,
     "gridType": "rectangular",
@@ -17,10 +17,10 @@
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridOffsetZ": 0,
-    "gridColor": 10401023,
+    "gridColor": 6251375,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.30887412163426564,
+    "zoomFactor": 0.4303403802207686,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -218,26 +218,327 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 2430,
       "keepRatio": true,
       "layer": "",
       "locked": true,
-      "name": "Fundo2",
-      "persistentUuid": "4f74c6f3-f4ee-417b-bb41-01bacfe4e5b6",
+      "name": "Camera",
+      "persistentUuid": "691b229b-7459-4f30-9dc5-a0b449b40ce7",
       "sealed": true,
-      "width": 0,
-      "x": -600,
-      "y": -480,
-      "zOrder": -1,
+      "width": 4320,
+      "x": -1184,
+      "y": -1342,
+      "zOrder": 43,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Colisoes",
+      "opacity": 0,
+      "persistentUuid": "71a9f807-1485-48c2-b235-6d895636bc58",
+      "width": 2176,
+      "x": -64,
+      "y": 1088,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Colisoes",
+      "opacity": 0,
+      "persistentUuid": "803109e4-1254-4037-8e57-6a420d7944fc",
+      "width": 704,
+      "x": 1280,
+      "y": -1056,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Colisoes",
+      "opacity": 0,
+      "persistentUuid": "0f39f059-d59e-4387-8813-d98dcb77ecca",
+      "width": 704,
+      "x": -64,
+      "y": -1056,
+      "zOrder": 46,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Colisoes",
+      "opacity": 0,
+      "persistentUuid": "6b66a348-aee0-4248-8847-f7ed040c9edf",
+      "width": 64,
+      "x": 1280,
+      "y": -1312,
+      "zOrder": 45,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Colisoes",
+      "opacity": 0,
+      "persistentUuid": "479df138-a6a8-4856-8ab1-045956d495cc",
+      "width": 64,
+      "x": 576,
+      "y": -1312,
+      "zOrder": 45,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Cerca",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "CercaASriel1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 221
+                      },
+                      {
+                        "x": 0,
+                        "y": 221
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "CercaASriel2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 221
+                      },
+                      {
+                        "x": 0,
+                        "y": 221
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "CercaASriel3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 221
+                      },
+                      {
+                        "x": 0,
+                        "y": 221
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "CercaASriel4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 16
+                      },
+                      {
+                        "x": 180,
+                        "y": 221
+                      },
+                      {
+                        "x": 0,
+                        "y": 221
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Cerca"
+      }
+    ]
   },
   "events": [
     {
@@ -256,8 +557,8 @@
             "value": "ChangeColor"
           },
           "parameters": [
-            "Fundo2",
-            "\"134;77;40\""
+            "Fundo",
+            "\"145;90;56\""
           ]
         },
         {
@@ -1759,6 +2060,11 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ],
   "layers": [
@@ -1974,8 +2280,8 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
-      "name": "ShakeObject_PositionAngle",
-      "type": "ShakeObject::ShakeObject_PositionAngle"
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

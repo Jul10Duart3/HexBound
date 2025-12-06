@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.37687720367509475,
+    "zoomFactor": 0.3526904934771296,
     "windowMask": false,
     "selectedLayer": ""
   },
@@ -6835,6 +6835,366 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Fantoche\\Morte10.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fparado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Parado\\Fparado0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fatacar",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.2,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Atacar\\Fatacar0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Atacar\\Fatacar0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fatacado",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Ataca\\Fataca0001.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Ataca\\Fataca0002.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Ataca\\Fataca0003.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Ataca\\Fataca0004.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Ataca\\Fataca0005.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 360,
+                    "y": 360
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 147,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 156
+                      },
+                      {
+                        "x": 583,
+                        "y": 567
+                      },
+                      {
+                        "x": 147,
+                        "y": 567
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Folinha\\Ataca\\Fataca0006.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -16759,7 +17119,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -17079,7 +17438,7 @@
                     "Personagens",
                     "Animation",
                     "=",
-                    "\"BP Parado\""
+                    "\"Fparado\""
                   ]
                 }
               ]
@@ -17108,7 +17467,7 @@
                     "Personagens",
                     "Animation",
                     "=",
-                    "\"BP Atacado\""
+                    "\"Fatacado\""
                   ]
                 }
               ]
@@ -17137,7 +17496,7 @@
                     "Personagens",
                     "Animation",
                     "=",
-                    "\"BP Ataca\""
+                    "\"Fatacar\""
                   ]
                 }
               ]
@@ -17166,7 +17525,7 @@
                     "Personagens",
                     "Animation",
                     "=",
-                    "\"BP morto\""
+                    "\"HRmorto\""
                   ]
                 }
               ]
@@ -17235,6 +17594,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Bosses",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -18201,6 +18561,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -28393,12 +28754,12 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
-      "name": "ShakeObject_PositionAngle",
-      "type": "ShakeObject::ShakeObject_PositionAngle"
-    },
-    {
       "name": "ShakeObject_PositionAngleScale",
       "type": "ShakeObject::ShakeObject_PositionAngleScale"
+    },
+    {
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",

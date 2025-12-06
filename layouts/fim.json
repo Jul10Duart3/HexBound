@@ -204,8 +204,8 @@
       "type": "ScalableCapability::ScalableBehavior"
     },
     {
-      "name": "ShakeObject_PositionAngle",
-      "type": "ShakeObject::ShakeObject_PositionAngle"
+      "name": "SmoothCamera",
+      "type": "SmoothCamera::SmoothCamera"
     },
     {
       "name": "Text",
