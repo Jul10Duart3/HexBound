@@ -1,9 +1,9 @@
 {
   "firstLayout": "Menu",
   "gdVersion": {
-    "build": 248,
+    "build": 268,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -18,6 +18,7 @@
     "scaleMode": "nearest",
     "sizeOnStartupMode": "",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "0.2.0",
     "name": "Hexbound",
     "description": "",
@@ -81,7 +82,6 @@
     "authorUsernames": [],
     "categories": [],
     "playableDevices": [
-      "mobile",
       "mobile"
     ],
     "extensionProperties": [],
@@ -3538,6 +3538,198 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\Folinha\\Ataca\\Fataca0006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0010.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0010.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0011.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0011.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0012.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0012.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0013.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0013.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Jogador/New/BattlePlayer0009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Jogador/New/BattlePlayer0009.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10000.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10000.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10001.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10002.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10003.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10004.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10005.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10006.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10007.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10007.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10008.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10008.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dados/DadoFace10009.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Dados/DadoFace10009.png",
         "smoothed": false,
         "userAdded": false
       }
@@ -9761,6 +9953,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Arvores",
+      "persistentUuid": "c0c1711f-005c-4008-aaac-5a9c6d0055d4",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -10001,7 +10194,7 @@
     {
       "name": "Tipo",
       "type": "string",
-      "value": "Sentopeia Rabiscada"
+      "value": "Jul10 Duart3"
     },
     {
       "name": "EmBatalha",

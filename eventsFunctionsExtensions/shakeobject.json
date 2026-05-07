@@ -1,6 +1,7 @@
 {
   "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
   "category": "Visual effect",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Shake object",
   "gdevelopVersion": ">=5.5.222",
@@ -41,12 +42,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Shake objects with translation and rotation.",
       "fullName": "Shake object (position, angle)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ShakeObject_PositionAngle",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "description": "Shake an object, using one or more ways to shake (position, angle). Make sure to \"Stop shaking\" before starting a new shake if it uses different parameters. ",
@@ -2027,14 +2034,36 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ShakeObject_PositionAngle"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "StopShaking"
+          },
+          {
+            "functionName": "IsShaking"
+          }
+        ]
+      },
       "propertyDescriptors": [],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      }
     },
     {
       "description": "Shake objects with translation, rotation and scale.",
       "fullName": "Shake object (position, angle, scale)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ShakeObject_PositionAngleScale",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "description": "Shake an object, using one or more ways to shake (position, angle, scale). Make sure to \"Stop shaking\" before starting a new shake if it uses different parameters.",
@@ -4401,6 +4430,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ShakeObject_PositionAngleScale"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "StopShaking"
+          },
+          {
+            "functionName": "IsShaking"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -4413,7 +4459,14 @@
           "name": "Scale"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Scale"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

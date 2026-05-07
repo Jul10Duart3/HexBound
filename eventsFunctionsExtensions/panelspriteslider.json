@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "User interface",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Slider",
   "gdevelopVersion": ">=5.5.230",
@@ -62,12 +63,23 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "IsInGameEdition"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Represent a value on a slider.",
       "fullName": "Slider",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "Slider",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -232,6 +244,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MinValue",
+          "group": "Resource bar configuration",
           "name": "SetMinValue",
           "sentence": "",
           "events": [
@@ -324,6 +337,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxValue",
+          "group": "Resource bar configuration",
           "name": "SetMaxValue",
           "sentence": "",
           "events": [
@@ -456,6 +470,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "StepSize",
+          "group": "Resource bar configuration",
           "name": "SetStepSize",
           "sentence": "",
           "events": [
@@ -504,6 +519,43 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "Value"
+          },
+          {
+            "functionName": "SetValue"
+          },
+          {
+            "folderName": "Resource bar configuration",
+            "children": [
+              {
+                "functionName": "MinValue"
+              },
+              {
+                "functionName": "SetMinValue"
+              },
+              {
+                "functionName": "MaxValue"
+              },
+              {
+                "functionName": "SetMaxValue"
+              },
+              {
+                "functionName": "StepSize"
+              },
+              {
+                "functionName": "SetStepSize"
+              }
+            ]
+          },
+          {
+            "functionName": "Size"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",
@@ -530,13 +582,32 @@
           "name": "StepSize"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "CurrentValue"
+          },
+          {
+            "propertyName": "MinValue"
+          },
+          {
+            "propertyName": "MaxValue"
+          },
+          {
+            "propertyName": "StepSize"
+          }
+        ]
+      }
     },
     {
       "description": "The finite state machine used internally by the button object.",
       "fullName": "Button finite state machine",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "ButtonFSM",
       "objectType": "",
+      "previewIconUrl": "",
       "private": true,
       "eventsFunctions": [
         {
@@ -1591,6 +1662,38 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "IsIdle"
+          },
+          {
+            "functionName": "IsClicked"
+          },
+          {
+            "functionName": "IsHovered"
+          },
+          {
+            "functionName": "IsFocused"
+          },
+          {
+            "functionName": "IsPressed"
+          },
+          {
+            "functionName": "IsPressedOutside"
+          },
+          {
+            "functionName": "TouchId"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "true",
@@ -1658,7 +1761,29 @@
           "name": "Index"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "ShouldCheckHovering"
+          },
+          {
+            "propertyName": "State"
+          },
+          {
+            "propertyName": "TouchId"
+          },
+          {
+            "propertyName": "TouchIsInside"
+          },
+          {
+            "propertyName": "MouseIsInside"
+          },
+          {
+            "propertyName": "Index"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": [
@@ -1672,9 +1797,12 @@
       "defaultName": "Slider",
       "description": "Let users select a numerical value by dragging a slider.",
       "fullName": "Slider",
+      "helpPath": "",
+      "iconUrl": "",
       "isInnerAreaFollowingParentSize": true,
       "isUsingLegacyInstancesRenderer": false,
       "name": "PanelSpriteSlider",
+      "previewIconUrl": "",
       "objects": [
         {
           "assetStoreId": "",
@@ -2830,6 +2958,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MinValue",
+          "group": "Slider configuration",
           "name": "SetMinValue",
           "sentence": "",
           "events": [
@@ -2917,6 +3046,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxValue",
+          "group": "Slider configuration",
           "name": "SetMaxValue",
           "sentence": "",
           "events": [
@@ -3004,6 +3134,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "StepSize",
+          "group": "Slider configuration",
           "name": "SetStepSize",
           "sentence": "",
           "events": [
@@ -3565,6 +3696,78 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "onHotReloading"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "folderName": "Slider",
+            "children": [
+              {
+                "functionName": "IsBeingDragged"
+              }
+            ]
+          },
+          {
+            "functionName": "Value"
+          },
+          {
+            "functionName": "SetValue"
+          },
+          {
+            "folderName": "Slider configuration",
+            "children": [
+              {
+                "functionName": "MinValue"
+              },
+              {
+                "functionName": "SetMinValue"
+              },
+              {
+                "functionName": "MaxValue"
+              },
+              {
+                "functionName": "SetMaxValue"
+              },
+              {
+                "functionName": "StepSize"
+              },
+              {
+                "functionName": "SetStepSize"
+              },
+              {
+                "functionName": "IsLabelShown"
+              },
+              {
+                "functionName": "SetLabelShown"
+              }
+            ]
+          },
+          {
+            "functionName": "UpdateThumbPosition"
+          },
+          {
+            "functionName": "FullBarWidth"
+          },
+          {
+            "functionName": "UpdateSliderConfiguration"
+          },
+          {
+            "functionName": "Activate"
+          },
+          {
+            "functionName": "IsActivated"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "0",
@@ -3731,6 +3934,77 @@
           "name": "OldParentWidth"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Bar",
+            "children": [
+              {
+                "propertyName": "BarLeftPadding"
+              },
+              {
+                "propertyName": "BarTopPadding"
+              },
+              {
+                "propertyName": "BarRightPadding"
+              },
+              {
+                "propertyName": "BarBottomPadding"
+              }
+            ]
+          },
+          {
+            "folderName": "Label",
+            "children": [
+              {
+                "propertyName": "ShowLabelAtChanges"
+              },
+              {
+                "propertyName": "LabelMargin"
+              }
+            ]
+          },
+          {
+            "folderName": "Value",
+            "children": [
+              {
+                "propertyName": "MinValue"
+              },
+              {
+                "propertyName": "MaxValue"
+              },
+              {
+                "propertyName": "StepSize"
+              },
+              {
+                "propertyName": "InitialValue"
+              }
+            ]
+          },
+          {
+            "propertyName": "PreviousInitialValue"
+          },
+          {
+            "propertyName": "ThumbAnchorOrigin"
+          },
+          {
+            "propertyName": "ThumbAnchorTarget"
+          },
+          {
+            "propertyName": "ShowLabel"
+          },
+          {
+            "propertyName": "BarLeftPlusRightMargin"
+          },
+          {
+            "propertyName": "BarTopPlusBottomMargin"
+          },
+          {
+            "propertyName": "OldParentWidth"
+          }
+        ]
+      },
       "variants": [
         {
           "areaMaxX": 215,

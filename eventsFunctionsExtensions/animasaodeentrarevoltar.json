@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "",
   "gdevelopVersion": "",
@@ -180,13 +181,35 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "Function"
+      },
+      {
+        "folderName": "aa",
+        "children": [
+          {
+            "functionName": "Function2"
+          }
+        ]
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "adasdasd",
       "fullName": "Animador",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "MyBehavior",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -201,6 +224,19 @@
           "name": "Property"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "animação",
+            "children": [
+              {
+                "propertyName": "Property"
+              }
+            ]
+          }
+        ]
+      },
       "sharedPropertyDescriptors": [
         {
           "value": "770",
@@ -210,13 +246,29 @@
           "group": "Movimento",
           "name": "Movimento"
         }
-      ]
+      ],
+      "sharedPropertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Movimento",
+            "children": [
+              {
+                "propertyName": "Movimento"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Ao ser criado, ele ira fazer uma animação de spawn",
       "fullName": "Boucing Spaner",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "BouceSpawn",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -982,6 +1034,34 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "DesativadorDeGirin"
+          },
+          {
+            "functionName": "AtivadorDeGirin"
+          },
+          {
+            "folderName": "Animations",
+            "children": [
+              {
+                "functionName": "BoucingActivate"
+              },
+              {
+                "functionName": "DamageAnimation"
+              }
+            ]
+          },
+          {
+            "functionName": "doStepPreEvents"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -1040,7 +1120,34 @@
           "name": "Property6"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Property"
+          },
+          {
+            "propertyName": "Property2"
+          },
+          {
+            "propertyName": "Property3"
+          },
+          {
+            "folderName": "Animations",
+            "children": [
+              {
+                "propertyName": "Property4"
+              },
+              {
+                "propertyName": "Property6"
+              }
+            ]
+          },
+          {
+            "propertyName": "Property5"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

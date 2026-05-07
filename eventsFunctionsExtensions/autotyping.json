@@ -1,6 +1,7 @@
 {
   "author": "westboy, daliyoucefmedakram@gmail.com, @bouh",
   "category": "User interface",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Auto typing animation for text (\"typewriter\" effect)",
   "gdevelopVersion": ">=5.5.222",
@@ -38,12 +39,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Reveal a text one letter after the other.",
       "fullName": "Auto typing text",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "AutoTyping",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -966,6 +973,50 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "IsNextWordWrapped"
+          },
+          {
+            "functionName": "ClearForcedLineBreak"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "onActivate"
+          },
+          {
+            "functionName": "IsFinished"
+          },
+          {
+            "functionName": "HasJustTyped"
+          },
+          {
+            "functionName": "RestartFromBeginning"
+          },
+          {
+            "functionName": "JumpToPosition"
+          },
+          {
+            "functionName": "ShowFullText"
+          },
+          {
+            "functionName": "Interval"
+          },
+          {
+            "functionName": "SetInterval"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -1006,7 +1057,26 @@
           "name": "TypedText"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Text"
+          },
+          {
+            "propertyName": "Interval"
+          },
+          {
+            "propertyName": "CharacterJustAdded"
+          },
+          {
+            "propertyName": "FullText"
+          },
+          {
+            "propertyName": "TypedText"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

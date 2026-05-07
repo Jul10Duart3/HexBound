@@ -1,6 +1,7 @@
 {
   "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
   "category": "Movement",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Ellipse movement",
   "gdevelopVersion": ">=5.5.222",
@@ -48,12 +49,18 @@
   "globalVariables": [],
   "sceneVariables": [],
   "eventsFunctions": [],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT"
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Move objects on ellipses or smoothly back and forth in one direction.",
       "fullName": "Ellipse movement",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "EllipseMovement",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -1308,6 +1315,78 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "ToggleTurningLeft"
+          },
+          {
+            "functionName": "SetTurningLeft"
+          },
+          {
+            "functionName": "IsTurningLeft"
+          },
+          {
+            "functionName": "MovementAngle"
+          },
+          {
+            "folderName": "Configuration",
+            "children": [
+              {
+                "functionName": "LoopDuration"
+              },
+              {
+                "functionName": "RadiusX"
+              },
+              {
+                "functionName": "RadiusY"
+              },
+              {
+                "functionName": "CenterX"
+              },
+              {
+                "functionName": "CenterY"
+              }
+            ]
+          },
+          {
+            "folderName": "Elliptical movement configuration",
+            "children": [
+              {
+                "functionName": "SetRadiusX"
+              },
+              {
+                "functionName": "SetRadiusY"
+              },
+              {
+                "functionName": "SetLoopDuration"
+              }
+            ]
+          },
+          {
+            "functionName": "SetMovementAngle"
+          },
+          {
+            "functionName": "DeltaX"
+          },
+          {
+            "functionName": "DeltaY"
+          },
+          {
+            "functionName": "DirectionAngle"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "100",
@@ -1399,7 +1478,62 @@
           "name": "OldY"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Ellipse",
+            "children": [
+              {
+                "propertyName": "RadiusX"
+              },
+              {
+                "propertyName": "RadiusY"
+              }
+            ]
+          },
+          {
+            "folderName": "Speed",
+            "children": [
+              {
+                "propertyName": "LoopDuration"
+              },
+              {
+                "propertyName": "InitialTurningLeft"
+              },
+              {
+                "propertyName": "InitialDirectionAngle"
+              }
+            ]
+          },
+          {
+            "folderName": "Rotation",
+            "children": [
+              {
+                "propertyName": "ShouldRotate"
+              },
+              {
+                "propertyName": "RotationOffset"
+              }
+            ]
+          },
+          {
+            "propertyName": "CenterX"
+          },
+          {
+            "propertyName": "CenterY"
+          },
+          {
+            "propertyName": "MovementAngle"
+          },
+          {
+            "propertyName": "OldX"
+          },
+          {
+            "propertyName": "OldY"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []

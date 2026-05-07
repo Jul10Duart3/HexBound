@@ -22,7 +22,8 @@
     "snap": true,
     "zoomFactor": 0.38958562738272895,
     "windowMask": false,
-    "selectedLayer": ""
+    "selectedLayer": "",
+    "gameEditorMode": "instances-editor"
   },
   "objectsGroups": [],
   "variables": [
@@ -242,6 +243,7 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "savez",
+      "persistentUuid": "bf155aa5-49fc-4074-ad17-86a56fc2c64c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],

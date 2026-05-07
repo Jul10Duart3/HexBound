@@ -1,6 +1,7 @@
 {
   "author": "",
   "category": "Movement",
+  "dimension": "",
   "extensionNamespace": "",
   "fullName": "Navigation mesh pathfinding (experimental)",
   "gdevelopVersion": ">=5.5.222",
@@ -4473,12 +4474,23 @@
       "objectGroups": []
     }
   ],
+  "eventsFunctionsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "functionName": "DefineJavaScript"
+      }
+    ]
+  },
   "eventsBasedBehaviors": [
     {
       "description": "Move objects to a target in straight lines while avoiding all objects that are flagged as obstacles.",
       "fullName": "Navigation mesh pathfinding (experimental)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "NavMeshPathfindingBehavior",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -5405,6 +5417,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "Acceleration",
+          "group": "Pathfinding configuration (navigation mesh)",
           "name": "SetAcceleration",
           "sentence": "",
           "events": [
@@ -5485,6 +5498,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "MaxSpeed",
+          "group": "Pathfinding configuration (navigation mesh)",
           "name": "SetMaxSpeed",
           "sentence": "",
           "events": [
@@ -5565,6 +5579,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "AngularMaxSpeed",
+          "group": "Pathfinding configuration (navigation mesh)",
           "name": "SetAngularMaxSpeed",
           "sentence": "",
           "events": [
@@ -5645,6 +5660,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "AngleOffset",
+          "group": "Pathfinding configuration (navigation mesh)",
           "name": "SetAngleOffset",
           "sentence": "",
           "events": [
@@ -5725,6 +5741,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "ExtraBorder",
+          "group": "Pathfinding configuration (navigation mesh)",
           "name": "SetExtraBorder",
           "sentence": "",
           "events": [
@@ -5806,6 +5823,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "CollisionShape",
+          "group": "Pathfinding configuration (navigation mesh)",
           "name": "SetCollisionShape",
           "sentence": "",
           "events": [
@@ -5976,6 +5994,128 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "folderName": "Movement on the path (navigation mesh)",
+            "children": [
+              {
+                "functionName": "SetDestination"
+              },
+              {
+                "functionName": "IsMoving"
+              },
+              {
+                "functionName": "PathFound"
+              },
+              {
+                "functionName": "DestinationReached"
+              },
+              {
+                "functionName": "NodeCount"
+              },
+              {
+                "functionName": "NodeX"
+              },
+              {
+                "functionName": "NodeY"
+              },
+              {
+                "functionName": "NextNodeIndex"
+              },
+              {
+                "functionName": "NextNodeX"
+              },
+              {
+                "functionName": "NextNodeY"
+              },
+              {
+                "functionName": "PreviousNodeX"
+              },
+              {
+                "functionName": "PreviousNodeY"
+              },
+              {
+                "functionName": "DestinationX"
+              },
+              {
+                "functionName": "DestinationY"
+              },
+              {
+                "functionName": "MovementAngle"
+              },
+              {
+                "functionName": "MovementAngleIsAround"
+              },
+              {
+                "functionName": "Speed"
+              }
+            ]
+          },
+          {
+            "folderName": "Debug",
+            "children": [
+              {
+                "functionName": "DrawNavMesh"
+              }
+            ]
+          },
+          {
+            "folderName": "Pathfinding configuration (navigation mesh)",
+            "children": [
+              {
+                "functionName": "Acceleration"
+              },
+              {
+                "functionName": "SetAcceleration"
+              },
+              {
+                "functionName": "MaxSpeed"
+              },
+              {
+                "functionName": "SetMaxSpeed"
+              },
+              {
+                "functionName": "AngularMaxSpeed"
+              },
+              {
+                "functionName": "SetAngularMaxSpeed"
+              },
+              {
+                "functionName": "AngleOffset"
+              },
+              {
+                "functionName": "SetAngleOffset"
+              },
+              {
+                "functionName": "ExtraBorder"
+              },
+              {
+                "functionName": "SetExtraBorder"
+              },
+              {
+                "functionName": "CollisionShape"
+              },
+              {
+                "functionName": "SetCollisionShape"
+              },
+              {
+                "functionName": "RotateObject"
+              },
+              {
+                "functionName": "SetRotateObject"
+              }
+            ]
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "400",
@@ -6040,13 +6180,51 @@
           "name": "ExtraBorder"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Acceleration"
+          },
+          {
+            "propertyName": "MaxSpeed"
+          },
+          {
+            "folderName": "Rotation",
+            "children": [
+              {
+                "propertyName": "AngularMaxSpeed"
+              },
+              {
+                "propertyName": "RotateObject"
+              },
+              {
+                "propertyName": "AngleOffset"
+              }
+            ]
+          },
+          {
+            "folderName": "Collision",
+            "children": [
+              {
+                "propertyName": "CollisionShape"
+              },
+              {
+                "propertyName": "ExtraBorder"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Flag objects as being an obstacle for pathfinding.",
       "fullName": "Obstacle for navigation mesh pathfinding (experimental)",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "NavMeshPathfindingObstacleBehavior",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -6298,6 +6476,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "CellSize",
+          "group": "Navigation mesh configuration",
           "name": "SetCellSize",
           "private": true,
           "sentence": "",
@@ -6390,6 +6569,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "AreaLeftBound",
+          "group": "Navigation mesh configuration",
           "name": "SetAreaLeftBound",
           "private": true,
           "sentence": "",
@@ -6482,6 +6662,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "AreaTopBound",
+          "group": "Navigation mesh configuration",
           "name": "SetAreaTopBound",
           "private": true,
           "sentence": "",
@@ -6574,6 +6755,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "AreaRightBound",
+          "group": "Navigation mesh configuration",
           "name": "SetAreaRightBound",
           "private": true,
           "sentence": "",
@@ -6666,6 +6848,7 @@
           "fullName": "",
           "functionType": "ActionWithOperator",
           "getterName": "AreaBottomBound",
+          "group": "Navigation mesh configuration",
           "name": "SetAreaBottomBound",
           "private": true,
           "sentence": "",
@@ -6752,7 +6935,68 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onCreated"
+          },
+          {
+            "functionName": "doStepPreEvents"
+          },
+          {
+            "functionName": "onDeActivate"
+          },
+          {
+            "functionName": "onActivate"
+          },
+          {
+            "functionName": "onDestroy"
+          },
+          {
+            "folderName": "Navigation mesh configuration",
+            "children": [
+              {
+                "functionName": "CellSize"
+              },
+              {
+                "functionName": "SetCellSize"
+              },
+              {
+                "functionName": "AreaLeftBound"
+              },
+              {
+                "functionName": "SetAreaLeftBound"
+              },
+              {
+                "functionName": "AreaTopBound"
+              },
+              {
+                "functionName": "SetAreaTopBound"
+              },
+              {
+                "functionName": "AreaRightBound"
+              },
+              {
+                "functionName": "SetAreaRightBound"
+              },
+              {
+                "functionName": "AreaBottomBound"
+              },
+              {
+                "functionName": "SetAreaBottomBound"
+              }
+            ]
+          },
+          {
+            "functionName": "InvalidateNavMesh"
+          }
+        ]
+      },
       "propertyDescriptors": [],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "sharedPropertyDescriptors": [
         {
           "value": "Top-Down",
@@ -6821,13 +7065,42 @@
           "hidden": true,
           "name": "IsometricRatio"
         }
-      ]
+      ],
+      "sharedPropertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Viewpoint"
+          },
+          {
+            "propertyName": "CellSize"
+          },
+          {
+            "propertyName": "AreaLeftBound"
+          },
+          {
+            "propertyName": "AreaTopBound"
+          },
+          {
+            "propertyName": "AreaRightBound"
+          },
+          {
+            "propertyName": "AreaBottomBound"
+          },
+          {
+            "propertyName": "IsometricRatio"
+          }
+        ]
+      }
     },
     {
       "description": "Change the animation according to the movement direction.",
       "fullName": "Navigation mesh pathfinding animator",
+      "helpPath": "",
+      "iconUrl": "",
       "name": "NavMeshPathfindingAnimator",
       "objectType": "",
+      "previewIconUrl": "",
       "eventsFunctions": [
         {
           "fullName": "",
@@ -7527,6 +7800,41 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "onActivate"
+          },
+          {
+            "functionName": "doStepPostEvents"
+          },
+          {
+            "functionName": "AnimationName"
+          },
+          {
+            "functionName": "SetAnimationName"
+          },
+          {
+            "functionName": "IsScalingAnimation"
+          },
+          {
+            "functionName": "SetIsScalingAnimation"
+          },
+          {
+            "functionName": "SetAnimationSpeedScale"
+          },
+          {
+            "functionName": "Direction"
+          },
+          {
+            "functionName": "DirectionDifference"
+          },
+          {
+            "functionName": "SetAnimationDirection"
+          }
+        ]
+      },
       "propertyDescriptors": [
         {
           "value": "",
@@ -7588,7 +7896,42 @@
           "name": "AnimationDirection"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Animation"
+          },
+          {
+            "propertyName": "NavMeshPathfinding"
+          },
+          {
+            "folderName": "Animation",
+            "children": [
+              {
+                "propertyName": "IsScalingAnimation"
+              },
+              {
+                "propertyName": "AnimationName"
+              }
+            ]
+          },
+          {
+            "folderName": "Direction",
+            "children": [
+              {
+                "propertyName": "DirectionCount"
+              },
+              {
+                "propertyName": "AngleOffset"
+              }
+            ]
+          },
+          {
+            "propertyName": "AnimationDirection"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []
